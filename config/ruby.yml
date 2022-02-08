@@ -1,0 +1,388 @@
+AllCops:
+  DisplayCopNames: true
+  Exclude:
+    - "db/schema.rb"
+    - "node_modules/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+Bundler/InsecureProtocolSource:
+  AllowHttpProtocol: false
+Gemspec/DateAssignment:
+  Enabled: true
+Gemspec/RequireMFA:
+  Enabled: true
+Layout/BeginEndAlignment:
+  Enabled: true
+  EnforcedStyleAlignWith: begin
+Layout/CaseIndentation:
+  IndentOneStep: true
+Layout/ClassStructure:
+  Enabled: true
+  Categories:
+    module_inclusion:
+      - extend
+      - include
+      - prepend
+    associations:
+      - belongs_to
+      - has_one
+      - has_many
+  ExpectedOrder:
+    - module_inclusion
+    - constants
+    - associations
+    - public_class_methods
+    - initializer
+    - public_methods
+    - protected_methods
+    - private_methods
+Layout/CommentIndentation:
+  AllowForAlignment: true
+Layout/EmptyLineAfterMultilineCondition:
+  Enabled: true
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+  AllowAliasSyntax: false
+  AllowedMethods: []
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+Layout/FirstArrayElementLineBreak:
+  Enabled: true
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+Layout/FirstHashElementLineBreak:
+  Enabled: true
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: true
+Layout/FirstMethodParameterLineBreak:
+  Enabled: true
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: true
+  IndentationWidth: 0
+Layout/LineLength:
+  Max: 100
+Layout/MultilineArrayLineBreaks:
+  Enabled: true
+Layout/MultilineAssignmentLayout:
+  Enabled: true
+  EnforcedStyle: same_line
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: true
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: true
+Layout/RedundantLineBreak:
+  Enabled: true
+  InspectBlocks: true
+Layout/SingleLineBlockChain:
+  Enabled: true
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+Layout/SpaceBeforeBrackets:
+  Enabled: true
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+Layout/TrailingWhitespace:
+  AllowInHeredoc: false
+Lint/AmbiguousAssignment:
+  Enabled: true
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: true
+Lint/AmbiguousRange:
+  Enabled: true
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: true
+Lint/ConstantDefinitionInBlock:
+  Enabled:  true
+Lint/DeprecatedConstants:
+  Enabled: true
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+Lint/DuplicateBranch:
+  Enabled: true
+Lint/DuplicateElsifCondition:
+  Enabled: true
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: true
+Lint/DuplicateRescueException:
+  Enabled: true
+Lint/DuplicateRequire:
+  Enabled: true
+Lint/ElseLayout:
+  Enabled: false
+Lint/EmptyBlock:
+  Enabled: true
+  AllowComments: false
+  AllowEmptyLambdas: false
+Lint/EmptyClass:
+  Enabled: true
+Lint/EmptyConditionalBody:
+  Enabled: true
+Lint/EmptyFile:
+  Enabled: true
+  AllowComments: false
+Lint/EmptyInPattern:
+  Enabled: true
+  AllowComments: false
+Lint/EmptyWhen:
+  AllowComments: false
+Lint/FloatComparison:
+  Enabled: true
+Lint/HashCompareByIdentity:
+  Enabled: true
+Lint/IdentityComparison:
+  Enabled: true
+Lint/IncompatibleIoSelectWithFiberScheduler:
+  Enabled: true
+Lint/LambdaWithoutLiteralBlock:
+  Enabled: true
+Lint/MissingSuper:
+  Enabled: true
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+Lint/NoReturnInBeginEndBlocks:
+  Enabled: true
+Lint/NumberedParameterAssignment:
+  Enabled: true
+Lint/OrAssignmentToConstant:
+  Enabled: true
+Lint/RaiseException:
+  Enabled: true
+Lint/RedundantDirGlobSort:
+  Enabled: true
+Lint/RedundantSafeNavigation:
+  Enabled: true
+Lint/RequireRelativeSelfPath:
+  Enabled: true
+Lint/SelfAssignment:
+  Enabled: true
+Lint/StructNewOverride:
+  Enabled: true
+Lint/SymbolConversion:
+  Enabled: true
+Lint/ToEnumArguments:
+  Enabled: true
+Lint/TopLevelReturnWithArgument:
+  Enabled: true
+Lint/TrailingCommaInAttributeDeclaration:
+  Enabled: true
+Lint/TripleQuotes:
+  Enabled: true
+Lint/OutOfRangeRegexpRef:
+  Enabled: true
+Lint/UnexpectedBlockArity:
+  Enabled: true
+Lint/UnmodifiedReduceAccumulator:
+  Enabled: true
+Lint/UnreachableLoop:
+  Enabled: true
+Lint/UselessMethodDefinition:
+  Enabled: true
+  AllowComments: false
+Lint/UselessRuby2Keywords:
+  Enabled: true
+Lint/UselessTimes:
+  Enabled: true
+Lint/Void:
+  CheckForMethodsWithNoSideEffects: true
+Metrics/BlockLength:
+  IgnoredMethods:
+    - ips
+    - refine
+  Exclude:
+    - "**/*.gemspec"
+    - "spec/**/*"
+Metrics/ParameterLists:
+  Max: 3
+Naming/BlockForwarding:
+  Enabled: true
+Naming/InclusiveLanguage:
+  Enabled: true
+Naming/MethodName:
+  IgnoredPatterns:
+    - Array
+    - BigDecimal
+    - Complex
+    - Float
+    - Hash
+    - Integer
+    - JSON
+    - Pathname
+    - Rational
+    - String
+    - URI
+    - Version
+Naming/RescuedExceptionsVariableName:
+  PreferredName: error
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+  AllowedIdentifiers:
+    - capture3
+Naming/MethodParameterName:
+  AllowNamesEndingInNumbers: false
+Security/IoMethods:
+  Enabled: true
+Style/AccessorGrouping:
+  Enabled: true
+Style/ArgumentsForwarding:
+  Enabled: false
+Style/ArrayCoercion:
+  Enabled: true
+Style/AndOr:
+  EnforcedStyle: conditionals
+Style/AutoResourceCleanup:
+  Enabled: true
+Style/BisectedAttrAccessor:
+  Enabled: true
+Style/CaseLikeIf:
+  Enabled: true
+Style/ClassEqualityComparison:
+  Enabled: true
+Style/ClassMethodsDefinitions:
+  Enabled: true
+Style/CombinableLoops:
+  Enabled: true
+Style/CollectionCompact:
+  Enabled: true
+Style/CollectionMethods:
+  Enabled: true
+Style/Documentation:
+  Enabled: false
+Style/DocumentDynamicEvalDefinition:
+  Enabled: false
+Style/DoubleNegation:
+  EnforcedStyle: forbidden
+Style/EmptyLiteral:
+  Enabled: false
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+Style/EndlessMethod:
+  Enabled: true
+Style/ExplicitBlockArgument:
+  Enabled: false
+Style/ExponentialNotation:
+  Enabled: true
+Style/FileRead:
+  Enabled: true
+Style/FileWrite:
+  Enabled: true
+Style/FormatStringToken:
+  EnforcedStyle: template
+Style/GlobalStdStream:
+  Enabled: false
+Style/HashAsLastArrayItem:
+  Enabled: true
+Style/HashConversion:
+  Enabled: true
+Style/HashEachMethods:
+  Enabled: true
+Style/HashExcept:
+  Enabled: true
+Style/HashLikeCase:
+  Enabled: true
+  MinBranchesCount: 2
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+Style/IfWithBooleanLiteralBranches:
+  Enabled: true
+Style/ImplicitRuntimeError:
+  Enabled: true
+Style/InPatternThen:
+  Enabled: true
+Style/IpAddresses:
+  Enabled: true
+Style/KeywordParametersOrder:
+  Enabled: true
+Style/MapToHash:
+  Enabled: true
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
+Style/MethodCallWithArgsParentheses:
+  Enabled: true
+  EnforcedStyle: omit_parentheses
+  AllowParenthesesInChaining: true
+  AllowParenthesesInMultilineCall: true
+  IgnoreMacros: false
+Style/MethodDefParentheses:
+  EnforcedStyle: require_no_parentheses
+Style/MissingElse:
+  Enabled: true
+Style/MultilineInPatternThen:
+  Enabled: true
+Style/MultilineMethodSignature:
+  Enabled: true
+Style/NegatedIfElseCondition:
+  Enabled: true
+Style/NilLambda:
+  Enabled: true
+Style/NumberedParameters:
+  Enabled: true
+  EnforcedStyle: disallow
+Style/NumberedParametersLimit:
+  Enabled: true
+Style/NumericLiterals:
+  Enabled: false
+Style/OptionalBooleanParameter:
+  Enabled: true
+Style/OptionHash:
+  Enabled: true
+Style/OpenStructUse:
+  Enabled: true
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    "%w": "[]"
+    "%W": "[]"
+    "%i": "[]"
+    "%I": "[]"
+    "%r": "()"
+Style/QuotedSymbols:
+  Enabled: true
+Style/RedundantArgument:
+  Enabled: true
+Style/RedundantAssignment:
+  Enabled: true
+Style/RedundantSelfAssignment:
+  Enabled: true
+Style/RedundantSelfAssignmentBranch:
+  Enabled: true
+Style/RedundantFetchBlock:
+  Enabled: true
+Style/RedundantFileExtensionInRequire:
+  Enabled: true
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+Style/RedundantRegexpEscape:
+  Enabled: true
+Style/ReturnNil:
+  Enabled: true
+Style/SafeNavigation:
+  Enabled: false
+Style/SelectByRegexp:
+  Enabled: true
+Style/Send:
+  Enabled: true
+Style/SignalException:
+  EnforcedStyle: semantic
+Style/SingleArgumentDig:
+  Enabled: true
+Style/SlicingWithRange:
+  Enabled: true
+Style/SoleNestedConditional:
+  Enabled: true
+Style/StaticClass:
+  Enabled: true
+Style/StringChars:
+  Enabled: true
+Style/StringConcatenation:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+Style/StringMethods:
+  Enabled: true
+Style/SwapValues:
+  Enabled: true
+Style/SymbolArray:
+  Enabled: true

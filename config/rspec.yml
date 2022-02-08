@@ -1,0 +1,47 @@
+require: rubocop-rspec
+
+RSpec/ContextWording:
+  Prefixes:
+    - when
+    - with
+    - without
+RSpec/DescribeClass:
+  IgnoredMetadata:
+    type:
+      - feature
+      - request
+      - task
+RSpec/DescribedClassModuleWrapping:
+  Enabled: true
+RSpec/Dialect:
+  Enabled: true
+  PreferredMethods:
+    append_after: after
+    append_before: before
+    example: it
+    example_group: context
+    expect_any_instance_of: expect
+    is_expected: expect
+    its: it
+    let!: let
+    prepend_after: after
+    prepend_before: before
+    shared_examples_for: shared_examples
+    specify: it
+    subject!: subject
+RSpec/ExampleLength:
+  Max: 10
+RSpec/ExcessiveDocstringSpacing:
+  Enabled: true
+RSpec/FactoryBot/SyntaxMethods:
+  Enabled: false
+RSpec/IdenticalEqualityAssertion:
+  Enabled: true
+RSpec/NamedSubject:
+  IgnoreSharedExamples: false
+RSpec/Rails/AvoidSetupHook:
+  Enabled: true
+RSpec/StubbedMock:
+  Enabled: true
+RSpec/SubjectDeclaration:
+  Enabled: true

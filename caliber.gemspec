@@ -25,5 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "refinements", "~> 9.1"
 
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
-  spec.files = Dir["*.gemspec", "lib/**/*"]
+  spec.files = Dir["*.gemspec", "config/**/*", "lib/**/*"]
 end
