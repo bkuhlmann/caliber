@@ -107,7 +107,7 @@ bundle exec rake
 
 == link:https://www.alchemists.io/policies/contributions[Contributions]
 
-== link:https://www.alchemists.io/projects/code_quality/versions[Versions]
+== link:https://www.alchemists.io/projects/caliber/versions[Versions]
 
 == link:https://www.alchemists.io/community[Community]
 
