@@ -4,33 +4,84 @@
 
 = Caliber
 
-[link=https://www.alchemists.io/projects/code_quality]
-image::https://img.shields.io/badge/code_style-alchemists-brightgreen.svg[Alchemists Style Guide]
-[link=https://circleci.com/gh/bkuhlmann/caliber]
-image::https://circleci.com/gh/bkuhlmann/caliber.svg?style=svg[Circle CI Status]
+This gem provides global link:https://docs.rubocop.org/rubocop[RuboCop] configurations for ensuring
+high quality _and_ consistent software development practices.
 
 toc::[]
 
 == Features
 
-== Screencasts
+* Provides a global configuration for the following code quality gems:
+** link:https://docs.rubocop.org/rubocop[Rubocop]
+** link:https://github.com/rubocop/rubocop-performance[RuboCop Performance]
+** link:https://github.com/rubocop/rubocop-rake[RuboCop Rake]
+** link:https://github.com/rubocop/rubocop-rspec[RuboCop RSpec]
 
 == Requirements
 
-. link:https://www.ruby-lang.org[Ruby].
+* link:https://www.ruby-lang.org[Ruby]
+* link:https://github.com/ruby/rake[Rake]
+* link:https://rspec.info[RSpec]
 
 == Setup
 
-To set up the project, run:
+To install, run:
 
 [source,bash]
 ----
-bin/setup
+gem install caliber
 ----
 
 == Usage
 
+This gem is designed to replace all of your Rubocop setup with only a single reference to this gem.
+You'll want to start with your Gemfile by adding the following:
+
+[source,ruby]
+----
+group :code_quality do
+  gem "caliber"
+end
+----
+
+Then in your `.rubocop.yml` add the following to the top of the file:
+
+[source,ruby]
+----
+inherit_gem:
+  caliber: config/all.yml
+----
+
+That's it!
+
+== Customization
+
+Should you not want everything that this gem offers, you can customize
+the gem further by specifiying what you need:
+
+[source,ruby]
+----
+inherit_gem:
+  caliber:
+    - config/ruby.yml
+    - config/performance.yml
+    - config/rake.yml
+    - config/rspec.yml
+----
+
+That above is what `config/all.yml` expands to but now you can mix and match how you like for your
+needs.
+
 == Development
+
+To contribute, run:
+
+[source,bash]
+----
+git clone https://github.com/bkuhlmann/caliber.git
+cd caliber
+bin/setup
+----
 
 You can also use the IRB console for direct access to all objects:
 
@@ -56,7 +107,7 @@ bundle exec rake
 
 == link:https://www.alchemists.io/policies/contributions[Contributions]
 
-== link:https://www.alchemists.io/projects/caliber/versions[Versions]
+== link:https://www.alchemists.io/projects/code_quality/versions[Versions]
 
 == link:https://www.alchemists.io/community[Community]
 

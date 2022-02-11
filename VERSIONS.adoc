@@ -1,5 +1,13 @@
 = Versions
 
-== 0.0.0 (2022-02-07)
+== 0.1.0 (2022-02-07)
 
-* Added initial implementation.
+* Added RuboCop configuration - Brooke Kuhlmann
+* Added RuboCop dependencies to gemspec - Brooke Kuhlmann
+* Added gem specification summary - Brooke Kuhlmann
+* Added project skeleton - Brooke Kuhlmann
+
+== 0.0.2 and earlier
+
+This gem -- and associated namespace -- was repurposed after 0.0.2. So 0.0.2
+and 0.0.1 are incompatible with 0.1.0.
