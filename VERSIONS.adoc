@@ -1,5 +1,11 @@
 = Versions
 
+== 0.1.1 (2022-02-12)
+
+* Fixed Circle CI configuration to cache gemspec changes - Brooke Kuhlmann
+* Fixed README link to version information - Brooke Kuhlmann
+* Removed Code Quality project configuration - Brooke Kuhlmann
+
 == 0.1.0 (2022-02-07)
 
 * Added RuboCop configuration - Brooke Kuhlmann
@@ -7,7 +13,7 @@
 * Added gem specification summary - Brooke Kuhlmann
 * Added project skeleton - Brooke Kuhlmann
 
-== 0.0.2 and earlier
+== 0.0.2 (2014-03-11)
 
-This gem -- and associated namespace -- was repurposed after 0.0.2. So 0.0.2
-and 0.0.1 are incompatible with 0.1.0.
+This gem -- and associated namespace -- was repurposed after 0.0.2. This includes new gem ownership.
+Version 0.0.2 and 0.0.1 are incompatible with 0.1.0.

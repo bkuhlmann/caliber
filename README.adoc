@@ -12,7 +12,7 @@ toc::[]
 == Features
 
 * Provides a global configuration for the following code quality gems:
-** link:https://docs.rubocop.org/rubocop[Rubocop]
+** link:https://docs.rubocop.org/rubocop[RuboCop]
 ** link:https://github.com/rubocop/rubocop-performance[RuboCop Performance]
 ** link:https://github.com/rubocop/rubocop-rake[RuboCop Rake]
 ** link:https://github.com/rubocop/rubocop-rspec[RuboCop RSpec]
@@ -34,8 +34,8 @@ gem install caliber
 
 == Usage
 
-This gem is designed to replace all of your Rubocop setup with only a single reference to this gem.
-You'll want to start with your Gemfile by adding the following:
+This gem is designed to replace all of your RuboCop setup with only a single reference to this gem.
+You'll want to start with your `Gemfile` by adding the following:
 
 [source,ruby]
 ----
@@ -44,9 +44,9 @@ group :code_quality do
 end
 ----
 
-Then in your `.rubocop.yml` add the following to the top of the file:
+Then, in your `.rubocop.yml`, add the following to the top of the file:
 
-[source,ruby]
+[source,yaml]
 ----
 inherit_gem:
   caliber: config/all.yml
@@ -59,7 +59,7 @@ That's it!
 Should you not want everything that this gem offers, you can customize
 the gem further by specifiying what you need:
 
-[source,ruby]
+[source,yaml]
 ----
 inherit_gem:
   caliber:
@@ -69,8 +69,66 @@ inherit_gem:
     - config/rspec.yml
 ----
 
-That above is what `config/all.yml` expands to but now you can mix and match how you like for your
+The above is what `config/all.yml` expands to but now you can mix and match how you like for your
 needs.
+
+== Auto-Requires
+
+When Caliber is added to your `Gemfile`, you don't have to require RuboCop because Caliber does that
+for you by default. All RuboCop dependencies are also auto-required because they are defined in each
+configuration. Here's a full breakdown of how this works:
+
+[source,yaml]
+----
+inherit_gem:
+  caliber:
+    - config/all.yml
+----
+
+The above will auto-require and load the configurations for following gems:
+
+* RuboCop Performance
+* RuboCop Rake
+* RuboCop RSpec
+
+When you don't use the default `all.yml` configuration then behavior changes as follows:
+
+[source,yaml]
+----
+inherit_gem:
+  caliber:
+    - config/ruby.yml
+----
+
+The above will only load the RuboCop Ruby configuration. Nothing is required since Caliber already
+requires the RuboCop gem by default.
+
+[source,yaml]
+----
+inherit_gem:
+  caliber:
+    - config/peformance.yml
+----
+
+The above will only require the RuboCop Performance gem _and_ load the associated configuration.
+
+[source,yaml]
+----
+inherit_gem:
+  caliber:
+    - config/rake.yml
+----
+
+The above will only require the RuboCop Rake gem _and_ load the associated configuration.
+
+[source,yaml]
+----
+inherit_gem:
+  caliber:
+    - config/rspec.yml
+----
+
+The above will only require the RuboCop RSpec gem _and_ load the associated configuration.
 
 == Development
 
