@@ -2,6 +2,8 @@ require: rubocop-rspec
 
 RSpec/BeEq:
   Enabled: true
+RSpec/BeNil:
+  Enabled: true
 RSpec/ContextWording:
   Prefixes:
     - when
