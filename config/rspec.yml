@@ -1,5 +1,7 @@
 require: rubocop-rspec
 
+RSpec/BeEq:
+  Enabled: true
 RSpec/ContextWording:
   Prefixes:
     - when
