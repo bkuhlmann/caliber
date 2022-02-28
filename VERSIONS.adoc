@@ -1,5 +1,17 @@
 = Versions
 
+== 0.2.0 (2022-02-28)
+
+* Added RSpec/BeEq - Brooke Kuhlmann
+* Added RSpec/BeNil - Brooke Kuhlmann
+* Updated to Dead End 3.1.0 - Brooke Kuhlmann
+* Updated to Git Lint 3.2.0 - Brooke Kuhlmann
+* Updated to RSpec 3.11.0 - Brooke Kuhlmann
+* Updated to Refinements 9.2.0 - Brooke Kuhlmann
+* Updated to Rubocop Performance 1.13.2 - Brooke Kuhlmann
+* Updated to Rubocop RSpec 2.9.0 - Brooke Kuhlmann
+* Updated to Ruby 3.1.1 - Brooke Kuhlmann
+
 == 0.1.1 (2022-02-12)
 
 * Fixed Circle CI configuration to cache gemspec changes - Brooke Kuhlmann
