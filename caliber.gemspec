@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email = ["brooke@alchemists.io"]
   spec.homepage = "https://www.alchemists.io/projects/caliber"
   spec.summary = "Provides a high quality style guide and configuration for your projects."
-  spec.license = "Hippocratic-3.0"
+  spec.license = "Hippocratic-2.1"
 
   spec.metadata = {
     "bug_tracker_uri" => "https://github.com/bkuhlmann/caliber/issues",
