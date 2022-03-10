@@ -314,6 +314,8 @@ Style/MultilineMethodSignature:
   Enabled: true
 Style/NegatedIfElseCondition:
   Enabled: true
+Style/NestedFileDirname:
+  Enabled: true
 Style/NilLambda:
   Enabled: true
 Style/NumberedParameters:
