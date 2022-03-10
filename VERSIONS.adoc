@@ -1,5 +1,11 @@
 = Versions
 
+== 0.3.0 (2022-03-09)
+
+* Fixed Circle CI configuration to check Gemfile and gemspec - Brooke Kuhlmann
+* Added Style/NestedFileDirname - Brooke Kuhlmann
+* Updated to Rubocop 1.26.0 - Brooke Kuhlmann
+
 == 0.2.1 (2022-03-03)
 
 * Fixed Hippocratic License to be 2.1.0 version - Brooke Kuhlmann
