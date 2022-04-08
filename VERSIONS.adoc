@@ -1,5 +1,10 @@
 = Versions
 
+== 0.4.0 (2022-04-07)
+
+* Updated to Debug 1.5.0 - Brooke Kuhlmann
+* Removed Lint/Void with no side effect check - Brooke Kuhlmann
+
 == 0.3.0 (2022-03-09)
 
 * Fixed Circle CI configuration to check Gemfile and gemspec - Brooke Kuhlmann
