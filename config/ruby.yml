@@ -182,8 +182,6 @@ Lint/UselessRuby2Keywords:
   Enabled: true
 Lint/UselessTimes:
   Enabled: true
-Lint/Void:
-  CheckForMethodsWithNoSideEffects: true
 Metrics/BlockLength:
   IgnoredMethods:
     - ips
