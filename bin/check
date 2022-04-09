@@ -1,0 +1,59 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+Bundler.require :development, :tools
+
+require_relative "../lib/caliber"
+
+using Refinements::Pathnames
+using Refinements::Strings
+
+keyifier = lambda do |path|
+  case path
+    when /rubocop-\d+/ then :ruby
+    when /performance/ then :performance
+    when /rake/ then :rake
+    when /rspec/ then :rspec
+    else fail StandardError, "Unknown RuboCop path: #{path}."
+  end
+end
+
+rubocop_filter = lambda do |configuration|
+  configuration.select { |_key, values| values["Enabled"].to_s.to_bool }
+               .keys
+end
+
+caliber_filter = lambda do |configuration|
+  configuration.select { |_key, values| values["Enabled"].to_s.to_bool && values.size == 1 }
+               .keys
+end
+
+rubocop = $LOAD_PATH.grep(/rubocop-(\d+|performance|rake|rspec).*/)
+                    .sort
+                    .map { |path| path.sub(/lib$/, "config/default.yml") }
+                    .reduce({}) do |configuration, path|
+                      configuration.merge keyifier.call(path) => YAML.unsafe_load_file(path)
+                    end
+
+caliber = Bundler.root
+                 .join("config")
+                 .glob("{performance,rake,rspec,ruby}*.yml")
+                 .reduce({}) do |configuration, path|
+                   configuration.merge path.name.to_s.to_sym => YAML.safe_load(path.read)
+                 end
+
+%i[ruby performance rake rspec].each do |kind|
+  rubocop_analyzers = rubocop_filter.call rubocop[kind]
+  caliber_analyzers = caliber_filter.call caliber[kind]
+  intersection = rubocop_analyzers.intersection caliber_analyzers
+
+  print "#{kind.upcase}: "
+
+  if intersection.empty?
+    puts "✓"
+  else
+    puts
+    intersection.map { |analyzer| puts "* #{analyzer}" }
+  end
+end

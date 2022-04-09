@@ -148,6 +148,37 @@ You can also use the IRB console for direct access to all objects:
 bin/console
 ----
 
+=== Check
+
+Use the `bin/check` script -- when upgrading to newer RuboCop gem dependencies -- to check if
+duplicate configurations exist. This ensures Caliber configurations don't duplicate effort provided
+by RuboCop. The script _only identifies duplicate Caliber configurations which are enabled and have
+no other settings_.
+
+When both RuboCop and Caliber are in sync, the following will be output:
+
+....
+RUBY: ✓
+PERFORMANCE: ✓
+RAKE: ✓
+RSPEC: ✓
+....
+
+When RuboCop has finally enabled cops that Caliber already has enabled, the following will display
+as an example:
+
+....
+RUBY:
+* Lint/BinaryOperatorWithIdenticalOperands
+* Lint/ConstantDefinitionInBlock
+PERFORMANCE: ✓
+RAKE: ✓
+RSPEC:
+* RSpec/StubbedMock
+....
+
+The above can then be used as a checklist to remove from Caliber.
+
 == Tests
 
 To test, run:
