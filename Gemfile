@@ -14,6 +14,10 @@ group :code_quality do
   gem "simplecov", "~> 0.21"
 end
 
+group :development, :test do
+  gem "refinements", "~> 9.3"
+end
+
 group :development do
   gem "rake", "~> 13.0"
 end
