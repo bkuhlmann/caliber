@@ -8,7 +8,6 @@ gemspec
 
 group :code_quality do
   gem "bundler-leak", "~> 0.2"
-  gem "dead_end", "~> 3.1"
   gem "git-lint", "~> 3.2"
   gem "reek", "~> 6.1"
   gem "simplecov", "~> 0.21"
