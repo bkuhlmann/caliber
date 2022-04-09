@@ -151,6 +151,8 @@ Lint/RedundantDirGlobSort:
   Enabled: true
 Lint/RedundantSafeNavigation:
   Enabled: true
+Lint/RefinementImportMethods:
+  Enabled: true
 Lint/RequireRelativeSelfPath:
   Enabled: true
 Lint/SelfAssignment:
