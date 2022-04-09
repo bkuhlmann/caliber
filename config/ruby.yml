@@ -75,8 +75,6 @@ Layout/RedundantLineBreak:
   InspectBlocks: true
 Layout/SingleLineBlockChain:
   Enabled: true
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: true
 Layout/SpaceBeforeBrackets:
   Enabled: true
 Layout/SpaceInsideHashLiteralBraces:
@@ -89,23 +87,11 @@ Lint/AmbiguousOperatorPrecedence:
   Enabled: true
 Lint/AmbiguousRange:
   Enabled: true
-Lint/BinaryOperatorWithIdenticalOperands:
-  Enabled: true
-Lint/ConstantDefinitionInBlock:
-  Enabled:  true
 Lint/DeprecatedConstants:
-  Enabled: true
-Lint/DeprecatedOpenSSLConstant:
   Enabled: true
 Lint/DuplicateBranch:
   Enabled: true
-Lint/DuplicateElsifCondition:
-  Enabled: true
 Lint/DuplicateRegexpCharacterClassElement:
-  Enabled: true
-Lint/DuplicateRescueException:
-  Enabled: true
-Lint/DuplicateRequire:
   Enabled: true
 Lint/ElseLayout:
   Enabled: false
@@ -115,8 +101,6 @@ Lint/EmptyBlock:
   AllowEmptyLambdas: false
 Lint/EmptyClass:
   Enabled: true
-Lint/EmptyConditionalBody:
-  Enabled: true
 Lint/EmptyFile:
   Enabled: true
   AllowComments: false
@@ -125,19 +109,9 @@ Lint/EmptyInPattern:
   AllowComments: false
 Lint/EmptyWhen:
   AllowComments: false
-Lint/FloatComparison:
-  Enabled: true
-Lint/HashCompareByIdentity:
-  Enabled: true
-Lint/IdentityComparison:
-  Enabled: true
 Lint/IncompatibleIoSelectWithFiberScheduler:
   Enabled: true
 Lint/LambdaWithoutLiteralBlock:
-  Enabled: true
-Lint/MissingSuper:
-  Enabled: true
-Lint/MixedRegexpCaptureTypes:
   Enabled: true
 Lint/NoReturnInBeginEndBlocks:
   Enabled: true
@@ -145,44 +119,26 @@ Lint/NumberedParameterAssignment:
   Enabled: true
 Lint/OrAssignmentToConstant:
   Enabled: true
-Lint/RaiseException:
-  Enabled: true
 Lint/RedundantDirGlobSort:
-  Enabled: true
-Lint/RedundantSafeNavigation:
   Enabled: true
 Lint/RefinementImportMethods:
   Enabled: true
 Lint/RequireRelativeSelfPath:
   Enabled: true
-Lint/SelfAssignment:
-  Enabled: true
-Lint/StructNewOverride:
-  Enabled: true
 Lint/SymbolConversion:
   Enabled: true
 Lint/ToEnumArguments:
   Enabled: true
-Lint/TopLevelReturnWithArgument:
-  Enabled: true
-Lint/TrailingCommaInAttributeDeclaration:
-  Enabled: true
 Lint/TripleQuotes:
-  Enabled: true
-Lint/OutOfRangeRegexpRef:
   Enabled: true
 Lint/UnexpectedBlockArity:
   Enabled: true
 Lint/UnmodifiedReduceAccumulator:
   Enabled: true
-Lint/UnreachableLoop:
-  Enabled: true
 Lint/UselessMethodDefinition:
   Enabled: true
   AllowComments: false
 Lint/UselessRuby2Keywords:
-  Enabled: true
-Lint/UselessTimes:
   Enabled: true
 Metrics/BlockLength:
   IgnoredMethods:
@@ -221,8 +177,6 @@ Naming/MethodParameterName:
   AllowNamesEndingInNumbers: false
 Security/IoMethods:
   Enabled: true
-Style/AccessorGrouping:
-  Enabled: true
 Style/ArgumentsForwarding:
   Enabled: false
 Style/ArrayCoercion:
@@ -231,15 +185,7 @@ Style/AndOr:
   EnforcedStyle: conditionals
 Style/AutoResourceCleanup:
   Enabled: true
-Style/BisectedAttrAccessor:
-  Enabled: true
-Style/CaseLikeIf:
-  Enabled: true
-Style/ClassEqualityComparison:
-  Enabled: true
 Style/ClassMethodsDefinitions:
-  Enabled: true
-Style/CombinableLoops:
   Enabled: true
 Style/CollectionCompact:
   Enabled: true
@@ -259,8 +205,6 @@ Style/EndlessMethod:
   Enabled: true
 Style/ExplicitBlockArgument:
   Enabled: false
-Style/ExponentialNotation:
-  Enabled: true
 Style/FileRead:
   Enabled: true
 Style/FileWrite:
@@ -269,21 +213,13 @@ Style/FormatStringToken:
   EnforcedStyle: template
 Style/GlobalStdStream:
   Enabled: false
-Style/HashAsLastArrayItem:
-  Enabled: true
 Style/HashConversion:
-  Enabled: true
-Style/HashEachMethods:
   Enabled: true
 Style/HashExcept:
   Enabled: true
 Style/HashLikeCase:
   Enabled: true
   MinBranchesCount: 2
-Style/HashTransformKeys:
-  Enabled: true
-Style/HashTransformValues:
-  Enabled: true
 Style/IfWithBooleanLiteralBranches:
   Enabled: true
 Style/ImplicitRuntimeError:
@@ -291,8 +227,6 @@ Style/ImplicitRuntimeError:
 Style/InPatternThen:
   Enabled: true
 Style/IpAddresses:
-  Enabled: true
-Style/KeywordParametersOrder:
   Enabled: true
 Style/MapToHash:
   Enabled: true
@@ -325,8 +259,6 @@ Style/NumberedParametersLimit:
   Enabled: true
 Style/NumericLiterals:
   Enabled: false
-Style/OptionalBooleanParameter:
-  Enabled: true
 Style/OptionHash:
   Enabled: true
 Style/OpenStructUse:
@@ -342,21 +274,9 @@ Style/QuotedSymbols:
   Enabled: true
 Style/RedundantArgument:
   Enabled: true
-Style/RedundantAssignment:
-  Enabled: true
-Style/RedundantSelfAssignment:
-  Enabled: true
 Style/RedundantSelfAssignmentBranch:
   Enabled: true
-Style/RedundantFetchBlock:
-  Enabled: true
-Style/RedundantFileExtensionInRequire:
-  Enabled: true
 Style/RedundantInitialize:
-  Enabled: true
-Style/RedundantRegexpCharacterClass:
-  Enabled: true
-Style/RedundantRegexpEscape:
   Enabled: true
 Style/ReturnNil:
   Enabled: true
@@ -368,12 +288,6 @@ Style/Send:
   Enabled: true
 Style/SignalException:
   EnforcedStyle: semantic
-Style/SingleArgumentDig:
-  Enabled: true
-Style/SlicingWithRange:
-  Enabled: true
-Style/SoleNestedConditional:
-  Enabled: true
 Style/StaticClass:
   Enabled: true
 Style/StringChars:
@@ -387,6 +301,4 @@ Style/StringLiteralsInInterpolation:
 Style/StringMethods:
   Enabled: true
 Style/SwapValues:
-  Enabled: true
-Style/SymbolArray:
   Enabled: true

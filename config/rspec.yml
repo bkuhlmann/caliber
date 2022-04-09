@@ -45,7 +45,5 @@ RSpec/NamedSubject:
   IgnoreSharedExamples: false
 RSpec/Rails/AvoidSetupHook:
   Enabled: true
-RSpec/StubbedMock:
-  Enabled: true
 RSpec/SubjectDeclaration:
   Enabled: true
