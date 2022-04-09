@@ -352,6 +352,8 @@ Style/RedundantFetchBlock:
   Enabled: true
 Style/RedundantFileExtensionInRequire:
   Enabled: true
+Style/RedundantInitialize:
+  Enabled: true
 Style/RedundantRegexpCharacterClass:
   Enabled: true
 Style/RedundantRegexpEscape:
