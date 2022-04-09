@@ -7,11 +7,6 @@ require "simplecov"
 SimpleCov.start { enable_coverage :branch }
 
 require "caliber"
-require "refinements"
-
-using Refinements::Pathnames
-
-Pathname.require_tree __dir__, "support/shared_contexts/**/*.rb"
 
 RSpec.configure do |config|
   config.color = true
