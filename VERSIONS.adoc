@@ -1,5 +1,11 @@
 = Versions
 
+== 0.5.1 (2022-04-11)
+
+* Fixed Lint/UselessMethodDefinition allow comments warning - Brooke Kuhlmann
+* Updated to Git Lint 4.0.0 - Brooke Kuhlmann
+* Removed DeadEnd gem - Brooke Kuhlmann
+
 == 0.5.0 (2022-04-09)
 
 * Added Lint/RefinementImportMethods - Brooke Kuhlmann
