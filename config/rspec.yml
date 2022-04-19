@@ -47,3 +47,5 @@ RSpec/Rails/AvoidSetupHook:
   Enabled: true
 RSpec/SubjectDeclaration:
   Enabled: true
+RSpec/VerifiedDoubleReference:
+  Enabled: true
