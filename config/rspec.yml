@@ -4,6 +4,7 @@ RSpec/BeEq:
   Enabled: true
 RSpec/BeNil:
   Enabled: true
+  EnforcedStyle: be
 RSpec/ContextWording:
   Prefixes:
     - when
