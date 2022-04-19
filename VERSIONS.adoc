@@ -1,5 +1,13 @@
 = Versions
 
+== 0.6.0 (2022-04-19)
+
+* Added GitHub sponsorship configuration - Brooke Kuhlmann
+* Added RSpec/BeNil enforced style - Brooke Kuhlmann
+* Added RSpec/VerifiedDoubleReference - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.10.0 - Brooke Kuhlmann
+* Updated to Ruby 3.1.2 - Brooke Kuhlmann
+
 == 0.5.1 (2022-04-11)
 
 * Fixed Lint/UselessMethodDefinition allow comments warning - Brooke Kuhlmann
