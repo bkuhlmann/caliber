@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop", "~> 1.27"
   spec.add_dependency "rubocop-performance", "~> 1.13"
   spec.add_dependency "rubocop-rake", "~> 0.6"
-  spec.add_dependency "rubocop-rspec", "~> 2.9"
+  spec.add_dependency "rubocop-rspec", "~> 2.10"
 
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
   spec.files = Dir["*.gemspec", "config/**/*", "lib/**/*"]
