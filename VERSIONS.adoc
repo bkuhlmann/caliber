@@ -1,5 +1,14 @@
 = Versions
 
+== 0.7.0 (2022-04-21)
+
+* Fixed Naming/MethodName to use allowed instead of ignored patterns - Brooke Kuhlmann
+* Added Security/CompoundHash - Brooke Kuhlmann
+* Added Style/FetchEnvVar - Brooke Kuhlmann
+* Added Style/ObjectThen - Brooke Kuhlmann
+* Updated Style/RedundantInitialize to not allow comments - Brooke Kuhlmann
+* Updated to RuboCop 1.28.0 - Brooke Kuhlmann
+
 == 0.6.0 (2022-04-19)
 
 * Added GitHub sponsorship configuration - Brooke Kuhlmann
