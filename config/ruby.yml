@@ -258,6 +258,8 @@ Style/NumberedParametersLimit:
   Enabled: true
 Style/NumericLiterals:
   Enabled: false
+Style/ObjectThen:
+  Enabled: true
 Style/OptionHash:
   Enabled: true
 Style/OpenStructUse:
