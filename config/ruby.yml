@@ -151,7 +151,7 @@ Naming/BlockForwarding:
 Naming/InclusiveLanguage:
   Enabled: true
 Naming/MethodName:
-  IgnoredPatterns:
+  AllowedPatterns:
     - Array
     - BigDecimal
     - Complex
