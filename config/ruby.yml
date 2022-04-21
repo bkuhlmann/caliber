@@ -172,6 +172,8 @@ Naming/VariableNumber:
     - capture3
 Naming/MethodParameterName:
   AllowNamesEndingInNumbers: false
+Security/CompoundHash:
+  Enabled: true
 Security/IoMethods:
   Enabled: true
 Style/ArgumentsForwarding:
