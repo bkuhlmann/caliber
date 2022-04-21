@@ -281,6 +281,7 @@ Style/RedundantSelfAssignmentBranch:
   Enabled: true
 Style/RedundantInitialize:
   Enabled: true
+  AllowComments: false
 Style/ReturnNil:
   Enabled: true
 Style/SafeNavigation:
