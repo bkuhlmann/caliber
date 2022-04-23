@@ -54,7 +54,7 @@ inherit_gem:
 
 That's it!
 
-== Customization
+=== Customization
 
 Should you not want everything that this gem offers, you can customize
 the gem further by specifiying what you need:
@@ -72,7 +72,7 @@ inherit_gem:
 The above is what `config/all.yml` expands to but now you can mix and match how you like for your
 needs.
 
-== Auto-Requires
+=== Auto-Requires
 
 When Caliber is added to your `Gemfile`, you don't have to require RuboCop because Caliber does that
 for you by default. All RuboCop dependencies are also auto-required because they are defined in each
@@ -91,7 +91,7 @@ The above will auto-require and load the configurations for following gems:
 * RuboCop Rake
 * RuboCop RSpec
 
-When you don't use the default `all.yml` configuration then behavior changes as follows:
+When you don't use the default `all.yml` configuration, then behavior changes as follows:
 
 [source,yaml]
 ----
@@ -129,6 +129,46 @@ inherit_gem:
 ----
 
 The above will only require the RuboCop RSpec gem _and_ load the associated configuration.
+
+=== Import Only
+
+Should you not want to include this gem in your project for some reason, you can directly import the
+configuration files supported by this project instead. To do this, you'd need to add the following
+to the top of your `.rubocop.yml`:
+
+[source,yaml]
+----
+inherit_from:
+  - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/all.yml
+----
+
+You'll also want to add `.rubocop-https*` to your project's `.gitignore` since imported RuboCop YAML
+configurations will be cached locally and you'll not want them checked into your source code
+repository.
+
+If importing all configurations from `all.yml` is too much -- and much like you can do with
+requiring this gem directly -- you can mix and match what you want to import by defining which
+configurations you want to use. For example, the following is what `all.yml` expands too:
+
+[source,yaml]
+----
+inherit_from:
+  - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/ruby.yml
+  - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/performance.yml
+  - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/rake.yml
+  - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/rspec.yml
+----
+
+You can also target a specific version of this gem by swapping out the `main` path in the YAML URLs
+listed above with a specific version like `0.0.0`.
+
+Lastly, when using this YAML import approach, you'll not benefit from having all gems you need
+required and installed for you. So you'll need to manually require these gems in your `Gemfile`:
+
+* link:https://docs.rubocop.org/rubocop[RuboCop]
+* link:https://docs.rubocop.org/rubocop-performance[RuboCop Performance]
+* link:https://docs.rubocop.org/rubocop-rspec[RuboCop Rake]
+* link:https://docs.rubocop.org/rubocop-rspec[RuboCop RSpec]
 
 == Development
 
