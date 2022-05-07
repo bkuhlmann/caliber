@@ -1,5 +1,13 @@
 = Versions
 
+== 0.8.0 (2022-05-07)
+
+* Added Gemspec/DependencyVersion - Brooke Kuhlmann
+* Added README import only usage - Brooke Kuhlmann
+* Added Style/EnvHome - Brooke Kuhlmann
+* Added gemspec funding URI - Brooke Kuhlmann
+* Updated to RuboCop 1.29.0 - Brooke Kuhlmann
+
 == 0.7.0 (2022-04-21)
 
 * Fixed Naming/MethodName to use allowed instead of ignored patterns - Brooke Kuhlmann
