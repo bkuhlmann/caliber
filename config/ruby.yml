@@ -204,6 +204,8 @@ Style/EmptyMethod:
   EnforcedStyle: expanded
 Style/EndlessMethod:
   Enabled: true
+Style/EnvHome:
+  Enabled: true
 Style/ExplicitBlockArgument:
   Enabled: false
 Style/FetchEnvVar:
