@@ -143,9 +143,6 @@ Metrics/BlockLength:
   IgnoredMethods:
     - ips
     - refine
-  Exclude:
-    - "**/*.gemspec"
-    - "spec/**/*"
 Metrics/ParameterLists:
   Max: 3
 Naming/BlockForwarding:
