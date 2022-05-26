@@ -232,6 +232,8 @@ Style/InPatternThen:
   Enabled: true
 Style/IpAddresses:
   Enabled: true
+Style/MapCompactWithConditionalBlock:
+  Enabled: true
 Style/MapToHash:
   Enabled: true
 Style/MethodCalledOnDoEndBlock:
