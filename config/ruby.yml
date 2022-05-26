@@ -13,6 +13,8 @@ Gemspec/DependencyVersion:
   Enabled: true
 Gemspec/RequireMFA:
   Enabled: true
+Gemspec/DeprecatedAttributeAssignment:
+  Enabled: true
 Layout/BeginEndAlignment:
   Enabled: true
   EnforcedStyleAlignWith: begin
