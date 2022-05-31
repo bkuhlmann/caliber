@@ -38,6 +38,10 @@ RSpec/Dialect:
     subject!: subject
 RSpec/ExampleLength:
   Max: 10
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
 RSpec/ExcessiveDocstringSpacing:
   Enabled: true
 RSpec/FactoryBot/SyntaxMethods:
