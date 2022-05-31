@@ -228,6 +228,10 @@ To test, run:
 bundle exec rake
 ----
 
+== Troubleshooting
+
+If you are having issues requiring additional RuboCop gems in conjunction with what this gem provides for you, there is a link:https://github.com/rubocop/rubocop/issues/5251#issuecomment-1142638815[known issue and workaround] to this problem. Until the RuboCop team can fix the bug, you'll have to re-require your dependencies until then.
+
 == link:https://www.alchemists.io/policies/license[License]
 
 == link:https://www.alchemists.io/policies/security[Security]
