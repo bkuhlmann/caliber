@@ -1,5 +1,16 @@
 = Versions
 
+== 0.10.0 (2022-06-27)
+
+* Added Layout/LineContinuationLeadingSpace - Brooke Kuhlmann
+* Added Layout/LineContinuationSpacing - Brooke Kuhlmann
+* Added Lint/ConstantOverwrittenInRescue - Brooke Kuhlmann
+* Added Lint/NonAtomicFileOperation - Brooke Kuhlmann
+* Added README troubleshooting section - Brooke Kuhlmann
+* Updated RSpec/ExampleLength to count hashes as one line - Brooke Kuhlmann
+* Removed Bundler Leak gem - Brooke Kuhlmann
+* Removed Gemspec/DateAssignment - Brooke Kuhlmann
+
 == 0.9.0 (2022-05-26)
 
 * Added Gemspec/DeprecatedAttributeAssignment - Brooke Kuhlmann
