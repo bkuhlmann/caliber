@@ -60,6 +60,8 @@ Layout/FirstMethodParameterLineBreak:
   Enabled: true
 Layout/LineContinuationLeadingSpace:
   Enabled: true
+Layout/LineContinuationSpacing:
+  Enabled: true
 Layout/LineEndStringConcatenationIndentation:
   Enabled: true
   IndentationWidth: 0
