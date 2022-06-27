@@ -7,8 +7,6 @@ AllCops:
     - "vendor/**/*"
 Bundler/InsecureProtocolSource:
   AllowHttpProtocol: false
-Gemspec/DateAssignment:
-  Enabled: true
 Gemspec/DependencyVersion:
   Enabled: true
 Gemspec/RequireMFA:
