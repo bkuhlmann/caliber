@@ -8,6 +8,7 @@
 * Added Lint/NonAtomicFileOperation - Brooke Kuhlmann
 * Added README troubleshooting section - Brooke Kuhlmann
 * Updated RSpec/ExampleLength to count hashes as one line - Brooke Kuhlmann
+* Updated to RuboCop 1.31.0 - Brooke Kuhlmann
 * Removed Bundler Leak gem - Brooke Kuhlmann
 * Removed Gemspec/DateAssignment - Brooke Kuhlmann
 
