@@ -54,6 +54,8 @@ RSpec/NamedSubject:
   IgnoreSharedExamples: false
 RSpec/Rails/AvoidSetupHook:
   Enabled: true
+RSpec/Rails/HaveHttpStatus:
+  Enabled: true
 RSpec/SubjectDeclaration:
   Enabled: true
 RSpec/VerifiedDoubleReference:
