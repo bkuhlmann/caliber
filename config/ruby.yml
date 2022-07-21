@@ -135,6 +135,8 @@ Lint/RedundantDirGlobSort:
   Enabled: true
 Lint/RefinementImportMethods:
   Enabled: true
+Lint/RequireRangeParentheses:
+  Enabled: true
 Lint/RequireRelativeSelfPath:
   Enabled: true
 Lint/SymbolConversion:
