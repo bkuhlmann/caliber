@@ -1,5 +1,14 @@
 = Versions
 
+== 0.12.0 (2022-07-21)
+
+* Added Layout/MultilineMethodParameterLineBreaks - Brooke Kuhlmann
+* Added Lint/RequireRangeParentheses - Brooke Kuhlmann
+* Added Style/EmptyHeredoc - Brooke Kuhlmann
+* Updated to Debug 1.6.0 - Brooke Kuhlmann
+* Updated to Refinements 9.6.0 - Brooke Kuhlmann
+* Updated to RuboCop 1.32.0 - Brooke Kuhlmann
+
 == 0.11.0 (2022-07-02)
 
 * Added RSpec Capybara SpecificMatcher - Brooke Kuhlmann
