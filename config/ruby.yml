@@ -76,6 +76,8 @@ Layout/MultilineHashKeyLineBreaks:
   Enabled: true
 Layout/MultilineMethodArgumentLineBreaks:
   Enabled: true
+Layout/MultilineMethodParameterLineBreaks:
+  Enabled: true
 Layout/RedundantLineBreak:
   Enabled: true
   InspectBlocks: true
