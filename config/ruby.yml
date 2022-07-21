@@ -203,6 +203,8 @@ Style/DocumentDynamicEvalDefinition:
   Enabled: false
 Style/DoubleNegation:
   EnforcedStyle: forbidden
+Style/EmptyHeredoc:
+  Enabled: true
 Style/EmptyLiteral:
   Enabled: false
 Style/EmptyMethod:
