@@ -7,6 +7,8 @@
 This gem provides global link:https://docs.rubocop.org/rubocop[RuboCop] configurations for ensuring
 high quality _and_ consistent software development practices.
 
+_Due to the ever changing nature of the RuboCop gem ecosystem -- and the fact that it's very easy to fall behind quickly -- this gem takes an aggressive approach to staying up to date with latest changes within the RuboCop community. This also means this gem will probably never reach 1.0.0 status because new changes are being introduced in each minor release. That said, if you always want to be on top of recent changes -- because you know how costly technical debt is -- then this gem has you covered. 🎉_
+
 toc::[]
 
 == Features
