@@ -309,6 +309,8 @@ Style/Send:
   Enabled: true
 Style/SignalException:
   EnforcedStyle: semantic
+Style/StabbyLambdaParentheses:
+  EnforcedStyle: require_no_parentheses
 Style/StaticClass:
   Enabled: true
 Style/StringChars:
