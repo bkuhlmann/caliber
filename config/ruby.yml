@@ -85,6 +85,8 @@ Layout/SingleLineBlockChain:
   Enabled: true
 Layout/SpaceBeforeBrackets:
   Enabled: true
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 Layout/TrailingWhitespace:
