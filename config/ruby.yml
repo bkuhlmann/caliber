@@ -152,7 +152,7 @@ Lint/UnmodifiedReduceAccumulator:
 Lint/UselessRuby2Keywords:
   Enabled: true
 Metrics/BlockLength:
-  IgnoredMethods:
+  AllowedMethods:
     - ips
     - refine
 Metrics/ParameterLists:
