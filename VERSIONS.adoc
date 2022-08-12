@@ -1,5 +1,12 @@
 = Versions
 
+== 0.13.0 (2022-08-12)
+
+* Added Style/MagicCommentFormat - Brooke Kuhlmann
+* Updated Layout/SpaceInLambdaLiteral to enforce a space for parameters - Brooke Kuhlmann
+* Updated Style/StabbyLambdaParentheses to not require parenthesis - Brooke Kuhlmann
+* Updated to RuboCop 1.35.0 - Brooke Kuhlmann
+
 == 0.12.1 (2022-08-04)
 
 * Fixed Metrics/BlockLength deprecation warning with ignored methods - Brooke Kuhlmann
