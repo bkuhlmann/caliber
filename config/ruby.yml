@@ -246,6 +246,8 @@ Style/InPatternThen:
   Enabled: true
 Style/IpAddresses:
   Enabled: true
+Style/MagicCommentFormat:
+  Enabled: true
 Style/MapCompactWithConditionalBlock:
   Enabled: true
 Style/MapToHash:
