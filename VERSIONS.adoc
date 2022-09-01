@@ -1,5 +1,9 @@
 = Versions
 
+== 0.14.0 (2022-09-01)
+
+* Updated to RuboCop 1.36.0 - Brooke Kuhlmann
+
 == 0.13.0 (2022-08-12)
 
 * Added Style/MagicCommentFormat - Brooke Kuhlmann
