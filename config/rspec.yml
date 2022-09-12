@@ -11,6 +11,8 @@ RSpec/Capybara/SpecificMatcher:
   Enabled: true
 RSpec/ChangeByZero:
   Enabled: true
+RSpec/ClassCheck:
+  Enabled: true
 RSpec/ContextWording:
   Prefixes:
     - when
