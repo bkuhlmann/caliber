@@ -1,5 +1,13 @@
 = Versions
 
+== 0.15.0 (2022-09-12)
+
+* Added RSpec/Capybara/SpecificFinders - Brooke Kuhlmann
+* Added RSpec/ClassCheck - Brooke Kuhlmann
+* Added RSpec/NoExpectationExample - Brooke Kuhlmann
+* Updated to RuboCop Performance 1.15.0 - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.13.0 - Brooke Kuhlmann
+
 == 0.14.0 (2022-09-01)
 
 * Updated to RuboCop 1.36.0 - Brooke Kuhlmann
