@@ -52,6 +52,8 @@ RSpec/IdenticalEqualityAssertion:
   Enabled: true
 RSpec/NamedSubject:
   IgnoreSharedExamples: false
+RSpec/NoExpectationExample:
+  Enabled: true
 RSpec/Rails/AvoidSetupHook:
   Enabled: true
 RSpec/Rails/HaveHttpStatus:
