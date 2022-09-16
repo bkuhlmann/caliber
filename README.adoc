@@ -2,23 +2,29 @@
 :toclevels: 5
 :figure-caption!:
 
+:rubocop_link: link:https://docs.rubocop.org/rubocop[RuboCop]
+:rubocop_performance_link: link:https://docs.rubocop.org/rubocop-performance[RuboCop Performance]
+:rubocop_thread_saftey_link: link:https://github.com/rubocop/rubocop-thread_safety[RuboCop Thread Safety]
+:rubocop_rake_link: link:https://docs.rubocop.org/rubocop-rspec[RuboCop Rake]
+:rubocop_rspec_link: link:https://docs.rubocop.org/rubocop-rspec[RuboCop RSpec]
+
 = Caliber
 
 This gem provides global link:https://docs.rubocop.org/rubocop[RuboCop] configurations for ensuring
 high quality _and_ consistent software development practices.
 
-_Due to the ever changing nature of the RuboCop gem ecosystem -- and the fact that it's very easy to fall behind quickly -- this gem takes an aggressive approach to staying up to date with latest changes within the RuboCop community. This also means this gem will probably never reach 1.0.0 status because new changes are being introduced in each minor release. That said, if you always want to be on top of recent changes -- because you know how costly technical debt is -- then this gem has you covered. 🎉_
+_Due to the ever changing nature of the RuboCop ecosystem -- and the fact that it's very easy to fall behind quickly -- this gem takes an aggressive approach to staying up to date with latest changes within the RuboCop community. This also means this gem will probably never reach 1.0.0 status because new changes are being introduced in each minor release. That said, if you always want to be on top of recent changes -- because you know how costly technical debt is -- then this gem has you covered. 🎉_
 
 toc::[]
 
 == Features
 
 * Provides a global configuration for the following code quality gems:
-** link:https://docs.rubocop.org/rubocop[RuboCop]
-** link:https://github.com/rubocop/rubocop-performance[RuboCop Performance]
-** link:https://github.com/rubocop/rubocop-thread_safety[RuboCop Thread Safety]
-** link:https://github.com/rubocop/rubocop-rake[RuboCop Rake]
-** link:https://github.com/rubocop/rubocop-rspec[RuboCop RSpec]
+** {rubocop_link}
+** {rubocop_performance_link}
+** {rubocop_thread_saftey_link}
+** {rubocop_rake_link}
+** {rubocop_rspec_link}
 
 == Requirements
 
@@ -59,8 +65,7 @@ That's it!
 
 === Customization
 
-Should you not want everything that this gem offers, you can customize
-the gem further by specifiying what you need:
+You can customize the gem by specifiying what you need:
 
 [source,yaml]
 ----
@@ -73,14 +78,11 @@ inherit_gem:
     - config/rspec.yml
 ----
 
-The above is what `config/all.yml` expands to but now you can mix and match how you like for your
-needs.
+The above is what `config/all.yml` expands to but now you can mix and match how you like for your specific needs.
 
-=== Auto-Requires
+=== Requirements
 
-When Caliber is added to your `Gemfile`, you don't have to require RuboCop because Caliber does that
-for you by default. All RuboCop dependencies are also auto-required because they are defined in each
-configuration. Here's a full breakdown of how this works:
+When Caliber is added to your `Gemfile`, you don't have to require RuboCop because Caliber does that for you by default. All RuboCop dependencies are also automatically required because they are defined in each configuration. Here's a full breakdown of how this works:
 
 [source,yaml]
 ----
@@ -89,12 +91,12 @@ inherit_gem:
     - config/all.yml
 ----
 
-The above will auto-require and load the configurations for following gems:
+The above will require and load the configurations for following gems:
 
-* RuboCop Performance
-* RuboCop Thread Safety
-* RuboCop Rake
-* RuboCop RSpec
+* {rubocop_performance_link}
+* {rubocop_thread_saftey_link}
+* {rubocop_rake_link}
+* {rubocop_rspec_link}
 
 When you don't use the default `all.yml` configuration, then behavior changes as follows:
 
@@ -144,11 +146,9 @@ inherit_gem:
 
 The above will only require the RuboCop RSpec gem _and_ load the associated configuration.
 
-=== Import Only
+=== Inheritance
 
-Should you not want to include this gem in your project for some reason, you can directly import the
-configuration files supported by this project instead. To do this, you'd need to add the following
-to the top of your `.rubocop.yml`:
+Should you not want to include this gem in your project for some reason, you can directly inherit the configuration files supported by this project instead. To do this, you'll need to add the following to the top of your `.rubocop.yml`:
 
 [source,yaml]
 ----
@@ -156,13 +156,9 @@ inherit_from:
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/all.yml
 ----
 
-You'll also want to add `.rubocop-https*` to your project's `.gitignore` since imported RuboCop YAML
-configurations will be cached locally and you'll not want them checked into your source code
-repository.
+You'll also want to add `.rubocop-https*` to your project's `.gitignore` since imported RuboCop YAML configurations will be cached locally and you'll not want them checked into your source code repository.
 
-If importing all configurations from `all.yml` is too much -- and much like you can do with
-requiring this gem directly -- you can mix and match what you want to import by defining which
-configurations you want to use. For example, the following is what `all.yml` expands too:
+If importing all configurations from `all.yml` is too much -- and much like you can do with requiring this gem directly -- you can mix and match what you want to import by defining which configurations you want to use. For example, the following is what `all.yml` expands too:
 
 [source,yaml]
 ----
@@ -174,17 +170,19 @@ inherit_from:
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/rspec.yml
 ----
 
-You can also target a specific version of this gem by swapping out the `main` path in the YAML URLs
-listed above with a specific version like `0.0.0`.
+You can also target a specific version of this gem by swapping out the `main` path in the YAML URLs listed above with a specific version like `0.0.0`.
 
-Lastly, when using this YAML import approach, you'll not benefit from having all gems you need
-required and installed for you. So you'll need to manually require these gems in your `Gemfile`:
+Lastly, when using this YAML import approach, you'll not benefit from having all gems you need required and installed for you. So you'll need to manually require these gems in your `Gemfile`:
 
-* link:https://docs.rubocop.org/rubocop[RuboCop]
-* link:https://docs.rubocop.org/rubocop-performance[RuboCop Performance]
-* link:https://github.com/rubocop/rubocop-thread_safety[RuboCop Thread Safety]
-* link:https://docs.rubocop.org/rubocop-rspec[RuboCop Rake]
-* link:https://docs.rubocop.org/rubocop-rspec[RuboCop RSpec]
+* {rubocop_link}
+* {rubocop_performance_link}
+* {rubocop_thread_saftey_link}
+* {rubocop_rake_link}
+* {rubocop_rspec_link}
+
+=== Troubleshooting
+
+If you are having issues requiring additional RuboCop gems in conjunction with what this gem provides for you, there is a link:https://github.com/rubocop/rubocop/issues/5251#issuecomment-1142638815[known issue and workaround] to this problem. Until the RuboCop team can fix the bug, you'll have to re-require your dependencies until then.
 
 == Development
 
@@ -192,7 +190,7 @@ To contribute, run:
 
 [source,bash]
 ----
-git clone https://github.com/bkuhlmann/caliber.git
+git clone https://github.com/bkuhlmann/caliber
 cd caliber
 bin/setup
 ----
@@ -245,10 +243,6 @@ To test, run:
 ----
 bundle exec rake
 ----
-
-== Troubleshooting
-
-If you are having issues requiring additional RuboCop gems in conjunction with what this gem provides for you, there is a link:https://github.com/rubocop/rubocop/issues/5251#issuecomment-1142638815[known issue and workaround] to this problem. Until the RuboCop team can fix the bug, you'll have to re-require your dependencies until then.
 
 == link:https://www.alchemists.io/policies/license[License]
 
