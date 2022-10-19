@@ -157,6 +157,8 @@ Metrics/BlockLength:
   AllowedMethods:
     - ips
     - refine
+    - Dry::Schema.JSON
+    - Dry::Schema.Params
 Metrics/ParameterLists:
   Max: 3
 Naming/BlockForwarding:
