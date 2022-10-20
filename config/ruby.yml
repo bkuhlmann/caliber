@@ -291,6 +291,8 @@ Style/OptionHash:
   Enabled: true
 Style/OpenStructUse:
   Enabled: true
+Style/OperatorMethodCall:
+  Enabled: true
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
     "%w": "[]"
