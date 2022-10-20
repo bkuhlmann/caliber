@@ -103,6 +103,8 @@ Lint/DeprecatedConstants:
   Enabled: true
 Lint/DuplicateBranch:
   Enabled: true
+Lint/DuplicateMagicComment:
+  Enabled: true
 Lint/DuplicateRegexpCharacterClassElement:
   Enabled: true
 Lint/ElseLayout:
