@@ -306,6 +306,8 @@ Style/RedundantArgument:
   Enabled: true
 Style/RedundantSelfAssignmentBranch:
   Enabled: true
+Style/RedundantStringEscape:
+  Enabled: true
 Style/RedundantInitialize:
   Enabled: true
   AllowComments: false
