@@ -1,5 +1,11 @@
 = Versions
 
+== 0.15.1 (2022-10-19)
+
+* Fixed SimpleCov Guard interaction - Brooke Kuhlmann
+* Updated Metrics/BlockLength to include Dry Schema methods - Brooke Kuhlmann
+* Updated README sections - Brooke Kuhlmann
+
 == 0.15.0 (2022-09-12)
 
 * Added RSpec/Capybara/SpecificFinders - Brooke Kuhlmann
