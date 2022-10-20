@@ -9,7 +9,7 @@ gemspec
 group :code_quality do
   gem "git-lint", "~> 4.0"
   gem "reek", "~> 6.1"
-  gem "simplecov", "~> 0.21"
+  gem "simplecov", "~> 0.21", require: false
 end
 
 group :development, :test do
