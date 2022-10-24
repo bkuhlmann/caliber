@@ -1,5 +1,17 @@
 = Versions
 
+== 0.17.0 (2022-10-24)
+
+* Fixed Rakefile RSpec initialization - Brooke Kuhlmann
+* Added RSpec/Capybara/NegationMatcher - Brooke Kuhlmann
+* Added RSpec/Capybara/SpecificActions - Brooke Kuhlmann
+* Added RSpec/FactoryBot/ConsistentParenthesesStyle - Brooke Kuhlmann
+* Added RSpec/Rails/InferredSpecType - Brooke Kuhlmann
+* Added RSpec/SortMetadata - Brooke Kuhlmann
+* Added Style/TopLevelMethodDefinition - Brooke Kuhlmann
+* Updated to Refinements 9.7.0 - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.14.1 - Brooke Kuhlmann
+
 == 0.16.0 (2022-10-20)
 
 * Fixed SimpleCov gem requirement to not be required by default - Brooke Kuhlmann
