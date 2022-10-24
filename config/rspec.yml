@@ -52,6 +52,9 @@ RSpec/ExampleLength:
     - heredoc
 RSpec/ExcessiveDocstringSpacing:
   Enabled: true
+RSpec/FactoryBot/ConsistentParenthesesStyle:
+  Enabled: true
+  EnforcedStyle: omit_parentheses
 RSpec/FactoryBot/SyntaxMethods:
   Enabled: false
 RSpec/IdenticalEqualityAssertion:
