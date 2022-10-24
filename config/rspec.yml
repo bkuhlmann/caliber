@@ -67,6 +67,8 @@ RSpec/Rails/AvoidSetupHook:
   Enabled: true
 RSpec/Rails/HaveHttpStatus:
   Enabled: true
+RSpec/Rails/InferredSpecType:
+  Enabled: true
 RSpec/SortMetadata:
   Enabled: true
 RSpec/SubjectDeclaration:
