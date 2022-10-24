@@ -337,3 +337,5 @@ Style/StringMethods:
   Enabled: true
 Style/SwapValues:
   Enabled: true
+Style/TopLevelMethodDefinition:
+  Enabled: true
