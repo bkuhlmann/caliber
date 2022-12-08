@@ -306,6 +306,8 @@ Style/QuotedSymbols:
   Enabled: true
 Style/RedundantArgument:
   Enabled: true
+Style/RedundantConstantBase:
+  Enabled: true
 Style/RedundantEach:
   Enabled: true
 Style/RedundantSelfAssignmentBranch:
