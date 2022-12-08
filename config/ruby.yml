@@ -197,6 +197,8 @@ Style/ArgumentsForwarding:
   Enabled: false
 Style/ArrayCoercion:
   Enabled: true
+Style/ArrayIntersect:
+  Enabled: true
 Style/AndOr:
   EnforcedStyle: conditionals
 Style/AutoResourceCleanup:
