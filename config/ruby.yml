@@ -1,4 +1,5 @@
 AllCops:
+  ActiveSupportExtensionsEnabled: true
   DisplayCopNames: true
   Exclude:
     - "db/schema.rb"
