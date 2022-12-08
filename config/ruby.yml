@@ -320,6 +320,8 @@ Style/RedundantInitialize:
   AllowComments: false
 Style/ReturnNil:
   Enabled: true
+Style/RequireOrder:
+  Enabled: true
 Style/SafeNavigation:
   Enabled: false
 Style/SelectByRegexp:
