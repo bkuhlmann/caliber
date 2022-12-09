@@ -180,10 +180,6 @@ Lastly, when using this YAML import approach, you'll not benefit from having all
 * {rubocop_rake_link}
 * {rubocop_rspec_link}
 
-=== Troubleshooting
-
-If you are having issues requiring additional RuboCop gems in conjunction with what this gem provides for you, there is a link:https://github.com/rubocop/rubocop/issues/5251#issuecomment-1142638815[known issue and workaround] to this problem. Until the RuboCop team can fix the bug, you'll have to re-require your dependencies until then.
-
 == Development
 
 To contribute, run:
