@@ -180,6 +180,21 @@ Lastly, when using this YAML import approach, you'll not benefit from having all
 * {rubocop_rake_link}
 * {rubocop_rspec_link}
 
+=== Coexistence
+
+In situations where you'd like to use Caliber alongside additional RuboCop gems, you only need to add the new gems to your `Gemfile` and then require them within your `.rubocop.yml`. For example, let's say you wanted to use both the Caliber and link:https://github.com/rubocop/rubocop-md[RuboCop Markdown] gems together. Here is how you can use both by updating your `.rubocop.yml` (assuming your `Gemfile` was updated as well):
+
+[source,yaml]
+----
+require:
+  - rubocop-md
+
+inherit_gem:
+  caliber: config/all.yml
+----
+
+Adding additional RuboCop gems only requires adding them to your YAML configuration.
+
 == Development
 
 To contribute, run:
