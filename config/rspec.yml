@@ -67,6 +67,8 @@ RSpec/NamedSubject:
   IgnoreSharedExamples: false
 RSpec/NoExpectationExample:
   Enabled: true
+RSpec/PendingWithoutReason:
+  Enabled: true
 RSpec/Rails/AvoidSetupHook:
   Enabled: true
 RSpec/Rails/HaveHttpStatus:
