@@ -1,5 +1,14 @@
 = Versions
 
+== 0.20.0 (2022-12-13)
+
+* Added RSpec/DuplicatedMetadata - Brooke Kuhlmann
+* Added RSpec/FactoryBot/FactoryNameStyle - Brooke Kuhlmann
+* Added RSpec/PendingWithoutReason - Brooke Kuhlmann
+* Added coexistence documentation - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.16.0 - Brooke Kuhlmann
+* Removed troubleshooting documentation - Brooke Kuhlmann
+
 == 0.19.0 (2022-12-08)
 
 * Added AllCops ActiveSupport extensions configuration - Brooke Kuhlmann
