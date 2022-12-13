@@ -46,6 +46,8 @@ RSpec/Dialect:
     shared_examples_for: shared_examples
     specify: it
     subject!: subject
+RSpec/DuplicatedMetadata:
+  Enabled: true
 RSpec/ExampleLength:
   Max: 10
   CountAsOne:
