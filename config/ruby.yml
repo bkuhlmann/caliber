@@ -210,6 +210,8 @@ Style/CollectionCompact:
   Enabled: true
 Style/CollectionMethods:
   Enabled: true
+Style/ConcatArrayLiterals:
+  Enabled: true
 Style/Documentation:
   Enabled: false
 Style/DocumentDynamicEvalDefinition:
