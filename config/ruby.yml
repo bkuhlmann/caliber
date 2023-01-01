@@ -354,3 +354,5 @@ Style/SwapValues:
   Enabled: true
 Style/TopLevelMethodDefinition:
   Enabled: true
+Style/YodaExpression:
+  Enabled: true
