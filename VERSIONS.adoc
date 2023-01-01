@@ -1,5 +1,15 @@
 = Versions
 
+== 0.22.0 (2023-01-01)
+
+* Added Style/MapToSet - Brooke Kuhlmann
+* Added Style/MinMaxComparison - Brooke Kuhlmann
+* Added Style/YodaExpression - Brooke Kuhlmann
+* Updated to Git Lint 5.0.0 - Brooke Kuhlmann
+* Updated to Refinements 10.0.0 - Brooke Kuhlmann
+* Updated to RuboCop 1.42.0 - Brooke Kuhlmann
+* Updated to SimpleCov 0.22.0 - Brooke Kuhlmann
+
 == 0.21.0 (2022-12-25)
 
 * Added RSpec binstub - Brooke Kuhlmann
