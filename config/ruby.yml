@@ -273,6 +273,8 @@ Style/MethodCallWithArgsParentheses:
   IgnoreMacros: false
 Style/MethodDefParentheses:
   EnforcedStyle: require_no_parentheses
+Style/MinMaxComparison:
+  Enabled: true
 Style/MissingElse:
   Enabled: true
 Style/MultilineInPatternThen:
