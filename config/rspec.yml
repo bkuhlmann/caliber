@@ -5,6 +5,8 @@ RSpec/BeEq:
 RSpec/BeNil:
   Enabled: true
   EnforcedStyle: be
+RSpec/Capybara/MatchStyle:
+  Enabled: true
 RSpec/Capybara/NegationMatcher:
   Enabled: true
 RSpec/Capybara/SpecificActions:
