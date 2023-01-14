@@ -154,6 +154,8 @@ Lint/UnexpectedBlockArity:
   Enabled: true
 Lint/UnmodifiedReduceAccumulator:
   Enabled: true
+Lint/UselessRescue:
+  Enabled: true
 Lint/UselessRuby2Keywords:
   Enabled: true
 Metrics/BlockLength:
