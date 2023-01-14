@@ -1,5 +1,13 @@
 = Versions
 
+== 0.23.0 (2023-01-14)
+
+* Added Lint/UselessRescue - Brooke Kuhlmann
+* Added RSpec/Capybara/MatchStyle - Brooke Kuhlmann
+* Added RSpec/Rails/MinitestAssertions - Brooke Kuhlmann
+* Updated to RuboCop 1.43.0 - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.17.0 - Brooke Kuhlmann
+
 == 0.22.0 (2023-01-01)
 
 * Added Style/MapToSet - Brooke Kuhlmann
