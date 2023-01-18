@@ -1,20 +1,22 @@
 require: rubocop-rspec
 
+Capybara/MatchStyle:
+  Enabled: true
+Capybara/NegationMatcher:
+  Enabled: true
+Capybara/SpecificActions:
+  Enabled: true
+Capybara/SpecificFinders:
+  Enabled: true
+Capybara/SpecificMatcher:
+  Enabled: true
 RSpec/BeEq:
   Enabled: true
 RSpec/BeNil:
   Enabled: true
   EnforcedStyle: be
-RSpec/Capybara/MatchStyle:
-  Enabled: true
-RSpec/Capybara/NegationMatcher:
-  Enabled: true
-RSpec/Capybara/SpecificActions:
-  Enabled: true
-RSpec/Capybara/SpecificFinders:
-  Enabled: true
-RSpec/Capybara/SpecificMatcher:
-  Enabled: true
+RSpec/Capybara:
+  Enabled: false
 RSpec/ChangeByZero:
   Enabled: true
 RSpec/ClassCheck:
