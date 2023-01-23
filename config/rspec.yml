@@ -15,8 +15,6 @@ RSpec/BeEq:
 RSpec/BeNil:
   Enabled: true
   EnforcedStyle: be
-RSpec/Capybara:
-  Enabled: false
 RSpec/ChangeByZero:
   Enabled: true
 RSpec/ClassCheck:
