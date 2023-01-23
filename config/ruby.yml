@@ -10,6 +10,8 @@ Bundler/InsecureProtocolSource:
   AllowHttpProtocol: false
 Gemspec/DependencyVersion:
   Enabled: true
+Gemspec/DevelopmentDependencies:
+  Enabled: true
 Gemspec/RequireMFA:
   Enabled: true
 Gemspec/DeprecatedAttributeAssignment:
