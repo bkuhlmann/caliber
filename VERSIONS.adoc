@@ -1,5 +1,14 @@
 = Versions
 
+== 0.25.0 (2023-01-23)
+
+* Fixed Guardfile to use RSpec binstub - Brooke Kuhlmann
+* Added Gemspec/DevelopmentDependencies - Brooke Kuhlmann
+* Added Rake binstub - Brooke Kuhlmann
+* Added Style/ComparableClamp - Brooke Kuhlmann
+* Added Style/InvertibleUnlessCondition - Brooke Kuhlmann
+* Updated to RuboCop 1.44.0 - Brooke Kuhlmann
+
 == 0.24.0 (2023-01-17)
 
 * Fixed RSpec Capybara department - Brooke Kuhlmann
