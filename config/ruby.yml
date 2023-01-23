@@ -212,6 +212,8 @@ Style/CollectionCompact:
   Enabled: true
 Style/CollectionMethods:
   Enabled: true
+Style/ComparableClamp:
+  Enabled: true
 Style/ConcatArrayLiterals:
   Enabled: true
 Style/Documentation:
