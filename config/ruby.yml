@@ -255,6 +255,8 @@ Style/ImplicitRuntimeError:
   Enabled: true
 Style/InPatternThen:
   Enabled: true
+Style/InvertibleUnlessCondition:
+  Enabled: true
 Style/IpAddresses:
   Enabled: true
 Style/MagicCommentFormat:
