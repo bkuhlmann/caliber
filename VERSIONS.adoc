@@ -1,5 +1,14 @@
 = Versions
 
+== 0.26.0 (2023-02-08)
+
+* Added Style/RedundantHeredocDelimiterQuotes - Brooke Kuhlmann
+* Updated Reek dependency to not be required - Brooke Kuhlmann
+* Updated to RuboCop 1.45.0 - Brooke Kuhlmann
+* Updated to RuboCop Performance 1.16.0 - Brooke Kuhlmann
+* Updated to Ruby 3.2.1 - Brooke Kuhlmann
+* Removed RuboCop requirement from main namespace - Brooke Kuhlmann
+
 == 0.25.0 (2023-01-23)
 
 * Fixed Guardfile to use RSpec binstub - Brooke Kuhlmann
