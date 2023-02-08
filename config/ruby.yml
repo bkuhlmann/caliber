@@ -327,6 +327,8 @@ Style/RedundantDoubleSplatHashBraces:
   Enabled: true
 Style/RedundantEach:
   Enabled: true
+Style/RedundantHeredocDelimiterQuotes:
+  Enabled: true
 Style/RedundantSelfAssignmentBranch:
   Enabled: true
 Style/RedundantStringEscape:
