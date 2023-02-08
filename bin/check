@@ -4,7 +4,7 @@
 require "bundler/setup"
 Bundler.require :development, :tools
 
-require_relative "../lib/caliber"
+require "rubocop"
 
 using Refinements::Pathnames
 using Refinements::Strings
