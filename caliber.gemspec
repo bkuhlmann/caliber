@@ -5,14 +5,14 @@ Gem::Specification.new do |spec|
   spec.version = "0.26.0"
   spec.authors = ["Brooke Kuhlmann"]
   spec.email = ["brooke@alchemists.io"]
-  spec.homepage = "https://www.alchemists.io/projects/caliber"
+  spec.homepage = "https://alchemists.io/projects/caliber"
   spec.summary = "Provides a high quality style guide and configuration for your projects."
   spec.license = "Hippocratic-2.1"
 
   spec.metadata = {
     "bug_tracker_uri" => "https://github.com/bkuhlmann/caliber/issues",
-    "changelog_uri" => "https://www.alchemists.io/projects/caliber/versions",
-    "documentation_uri" => "https://www.alchemists.io/projects/caliber",
+    "changelog_uri" => "https://alchemists.io/projects/caliber/versions",
+    "documentation_uri" => "https://alchemists.io/projects/caliber",
     "funding_uri" => "https://github.com/sponsors/bkuhlmann",
     "label" => "Caliber",
     "rubygems_mfa_required" => "true",
