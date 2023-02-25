@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.cert_chain = [Gem.default_cert_path]
 
   spec.required_ruby_version = "~> 3.2"
-  spec.add_dependency "rubocop", "~> 1.45"
+  spec.add_dependency "rubocop", "~> 1.47"
   spec.add_dependency "rubocop-performance", "~> 1.16"
   spec.add_dependency "rubocop-rake", "~> 0.6"
   spec.add_dependency "rubocop-rspec", "~> 2.18"
