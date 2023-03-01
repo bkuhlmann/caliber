@@ -251,6 +251,7 @@ When both RuboCop and Caliber are in sync, the following will be output:
 
 ....
 RUBY: ✓
+CAPYBARA: ✓
 PERFORMANCE: ✓
 THREAD: ✓
 RAKE: ✓
@@ -264,6 +265,7 @@ as an example:
 RUBY:
 * Lint/BinaryOperatorWithIdenticalOperands
 * Lint/ConstantDefinitionInBlock
+CAPYBARA: ✓
 PERFORMANCE: ✓
 THREAD: ✓
 RAKE: ✓
