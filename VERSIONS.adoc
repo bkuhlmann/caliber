@@ -1,5 +1,14 @@
 = Versions
 
+== 0.27.0 (2023-03-01)
+
+* Added Capybara configuration - Brooke Kuhlmann
+* Added Capybara to check script - Brooke Kuhlmann
+* Added Metrics/CollectionLiteralLength - Brooke Kuhlmann
+* Added RuboCop Capybara gem - Brooke Kuhlmann
+* Updated site URLs to use bare domain - Brooke Kuhlmann
+* Updated to RuboCop 1.47.0 - Brooke Kuhlmann
+
 == 0.26.0 (2023-02-08)
 
 * Added Style/RedundantHeredocDelimiterQuotes - Brooke Kuhlmann
