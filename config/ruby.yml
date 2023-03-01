@@ -166,6 +166,9 @@ Metrics/BlockLength:
     - refine
     - Dry::Schema.JSON
     - Dry::Schema.Params
+Metrics/CollectionLiteralLength:
+  Enabled: true
+  LengthThreshold: 25
 Metrics/ParameterLists:
   Max: 3
 Naming/BlockForwarding:
