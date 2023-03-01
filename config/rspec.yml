@@ -1,15 +1,5 @@
 require: rubocop-rspec
 
-Capybara/MatchStyle:
-  Enabled: true
-Capybara/NegationMatcher:
-  Enabled: true
-Capybara/SpecificActions:
-  Enabled: true
-Capybara/SpecificFinders:
-  Enabled: true
-Capybara/SpecificMatcher:
-  Enabled: true
 RSpec/BeEq:
   Enabled: true
 RSpec/BeNil:
