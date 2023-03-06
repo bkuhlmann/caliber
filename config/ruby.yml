@@ -243,6 +243,8 @@ Style/ExplicitBlockArgument:
   Enabled: false
 Style/FetchEnvVar:
   Enabled: true
+Style/FileEmpty:
+  Enabled: true
 Style/FileRead:
   Enabled: true
 Style/FileWrite:
