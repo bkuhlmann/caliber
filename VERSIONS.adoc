@@ -1,5 +1,15 @@
 = Versions
 
+== 0.28.0 (2023-03-06)
+
+* Added RSpec/Rails/TravelAround - Brooke Kuhlmann
+* Added RSpec/RedundantAround - Brooke Kuhlmann
+* Added RSpec/SkipBlockInsideExample - Brooke Kuhlmann
+* Added Style/DirEmpty - Brooke Kuhlmann
+* Added Style/FileEmpty - Brooke Kuhlmann
+* Updated to RuboCop 1.48.0 - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.19.0 - Brooke Kuhlmann
+
 == 0.27.0 (2023-03-01)
 
 * Added Capybara configuration - Brooke Kuhlmann
