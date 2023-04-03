@@ -334,6 +334,8 @@ Style/RedundantEach:
   Enabled: true
 Style/RedundantHeredocDelimiterQuotes:
   Enabled: true
+Style/RedundantLineContinuation:
+  Enabled: false
 Style/RedundantSelfAssignmentBranch:
   Enabled: true
 Style/RedundantStringEscape:
