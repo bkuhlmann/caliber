@@ -221,6 +221,8 @@ Style/ComparableClamp:
   Enabled: true
 Style/ConcatArrayLiterals:
   Enabled: true
+Style/DataInheritance:
+  Enabled: true
 Style/DirEmpty:
   Enabled: true
 Style/Documentation:
