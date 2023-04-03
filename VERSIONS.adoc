@@ -1,5 +1,14 @@
 = Versions
 
+== 0.29.0 (2023-04-03)
+
+* Added Style/DataInheritance - Brooke Kuhlmann
+* Added Style/RedundantLineContinuation - Brooke Kuhlmann
+* Updated to RuboCop 1.49.0 - Brooke Kuhlmann
+* Updated to RuboCop ThreadSaftey 0.5.0 - Brooke Kuhlmann
+* Updated to Ruby 3.2.2 - Brooke Kuhlmann
+* Removed Style/FormatStringToken template style - Brooke Kuhlmann
+
 == 0.28.0 (2023-03-06)
 
 * Added RSpec/Rails/TravelAround - Brooke Kuhlmann
