@@ -108,6 +108,8 @@ Lint/DuplicateBranch:
   Enabled: true
 Lint/DuplicateMagicComment:
   Enabled: true
+Lint/DuplicateMatchPattern:
+  Enabled: true
 Lint/DuplicateRegexpCharacterClassElement:
   Enabled: true
 Lint/ElseLayout:
