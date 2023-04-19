@@ -11,6 +11,8 @@ RSpec/ChangeByZero:
   Enabled: true
 RSpec/ClassCheck:
   Enabled: true
+RSpec/ContainExactly:
+  Enabled: true
 RSpec/ContextWording:
   Prefixes:
     - when
