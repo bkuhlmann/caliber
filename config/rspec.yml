@@ -57,6 +57,8 @@ RSpec/FactoryBot/SyntaxMethods:
   Enabled: false
 RSpec/IdenticalEqualityAssertion:
   Enabled: true
+RSpec/IndexedLet:
+  Enabled: true
 RSpec/NamedSubject:
   IgnoreSharedExamples: false
 RSpec/NoExpectationExample:
