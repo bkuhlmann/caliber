@@ -1,5 +1,13 @@
 = Versions
 
+== 0.31.0 (2023-04-18)
+
+* Added RSpec/BeEmpty - Brooke Kuhlmann
+* Added RSpec/ContainExactly - Brooke Kuhlmann
+* Added RSpec/IndexedLet - Brooke Kuhlmann
+* Added RSpec/MatchArray - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.20.0 - Brooke Kuhlmann
+
 == 0.30.0 (2023-04-11)
 
 * Added Lint/DuplicateMatchPattern - Brooke Kuhlmann
