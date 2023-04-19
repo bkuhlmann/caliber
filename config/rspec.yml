@@ -1,5 +1,7 @@
 require: rubocop-rspec
 
+RSpec/BeEmpty:
+  Enabled: true
 RSpec/BeEq:
   Enabled: true
 RSpec/BeNil:
