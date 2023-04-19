@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop-capybara", "~> 2.17"
   spec.add_dependency "rubocop-performance", "~> 1.16"
   spec.add_dependency "rubocop-rake", "~> 0.6"
-  spec.add_dependency "rubocop-rspec", "~> 2.19"
+  spec.add_dependency "rubocop-rspec", "~> 2.20"
   spec.add_dependency "rubocop-thread_safety", "~> 0.5"
 
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
