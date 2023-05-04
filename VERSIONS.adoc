@@ -1,5 +1,13 @@
 = Versions
 
+== 0.32.0 (2023-05-10)
+
+* Added FactoryBot to check script - Brooke Kuhlmann
+* Updated to Debug 1.8.0 - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.22.0 - Brooke Kuhlmann
+* Removed RuboCop Capybara dependency - Brooke Kuhlmann
+* Refactored FactoryBot configuration - Brooke Kuhlmann
+
 == 0.31.0 (2023-04-18)
 
 * Added RSpec/BeEmpty - Brooke Kuhlmann

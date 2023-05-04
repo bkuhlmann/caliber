@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name = "caliber"
-  spec.version = "0.31.0"
+  spec.version = "0.32.0"
   spec.authors = ["Brooke Kuhlmann"]
   spec.email = ["brooke@alchemists.io"]
   spec.homepage = "https://alchemists.io/projects/caliber"
-  spec.summary = "Provides a high quality style guide and configuration for your projects."
+  spec.summary = "A global, high quality, and constantly updated RuboCop configuration."
   spec.license = "Hippocratic-2.1"
 
   spec.metadata = {

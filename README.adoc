@@ -4,6 +4,7 @@
 
 :rubocop_link: link:https://docs.rubocop.org/rubocop[RuboCop]
 :rubocop_capybara_link: link:https://docs.rubocop.org/rubocop-capybara[RuboCop Capybara]
+:rubocop_factory_bot_link: link:https://docs.rubocop.org/rubocop-factory_bot/[RuboCop FactoryBot]
 :rubocop_performance_link: link:https://docs.rubocop.org/rubocop-performance[RuboCop Performance]
 :rubocop_thread_safety_link: link:https://github.com/rubocop/rubocop-thread_safety[RuboCop Thread Safety]
 :rubocop_rake_link: link:https://docs.rubocop.org/rubocop-rspec[RuboCop Rake]
@@ -12,9 +13,9 @@
 = Caliber
 
 This gem provides global link:https://docs.rubocop.org/rubocop[RuboCop] configurations for ensuring
-high quality _and_ consistent software development practices.
+high quality _and consistent_ software development practices.
 
-_Due to the ever changing nature of the RuboCop ecosystem -- and the fact that it's very easy to fall behind quickly -- this gem takes an aggressive approach to staying up to date with latest changes within the RuboCop community. This also means this gem will probably never reach Version 1.0.0 because new changes are being introduced in each minor release. That said, if you always want to be on top of recent changes -- *because you know how costly technical debt is* -- then this gem has you covered. 🎉_
+_Due to the ever changing nature of the RuboCop ecosystem -- and the fact you can fall behind quickly -- this gem takes an aggressive approach to staying atop the latest changes. This also means this gem might never reach Version 1.0.0 because new -- often breaking -- changes are being introduced in each minor release. That said, if you always want to keep pace with recent changes -- *because you know how costly technical debt is* -- then this gem has you covered. 🎉_
 
 toc::[]
 
@@ -23,6 +24,7 @@ toc::[]
 * Provides a global configuration for the following code quality gems:
 ** {rubocop_link}
 ** {rubocop_capybara_link}
+** {rubocop_factory_bot_link}
 ** {rubocop_performance_link}
 ** {rubocop_thread_safety_link}
 ** {rubocop_rake_link}
@@ -83,7 +85,7 @@ That's it!
 
 === Customization
 
-You can customize the gem by specifiying what you need:
+You can customize the gem by specifying what you need:
 
 [source,yaml]
 ----
@@ -91,6 +93,7 @@ inherit_gem:
   caliber:
     - config/ruby.yml
     - config/capybara.yml
+    - config/factory_bot.yml
     - config/performance.yml
     - config/thread.yml
     - config/rake.yml
@@ -114,6 +117,7 @@ The above will require and load the configurations for following gems:
 
 * {rubocop_link}
 * {rubocop_capybara_link}
+* {rubocop_factory_bot_link}
 * {rubocop_performance_link}
 * {rubocop_thread_safety_link}
 * {rubocop_rake_link}
@@ -142,6 +146,21 @@ inherit_gem:
 ----
 
 The above will only require the {rubocop_capybara_link} gem _and_ load the associated configuration.
+
+💡 This is a dependency of {rubocop_rspec_link} so doesn't need to be directly required if already requiring {rubocop_rspec_link}.
+
+*FactoryBot*
+
+[source,yaml]
+----
+inherit_gem:
+  caliber:
+    - config/factory_bot.yml
+----
+
+The above will only require the {rubocop_factory_bot_link} gem _and_ load the associated configuration.
+
+💡 This is a dependency of {rubocop_rspec_link} so doesn't need to be directly required if already requiring {rubocop_rspec_link}.
 
 *Performance*
 
@@ -206,6 +225,7 @@ If importing all configurations from `all.yml` is too much -- and much like you 
 inherit_from:
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/ruby.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/capybara.yml
+  - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/factory_bot.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/performance.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/thread.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/rake.yml
@@ -218,6 +238,7 @@ Lastly, when using this YAML import approach, you'll not benefit from having all
 
 * {rubocop_link}
 * {rubocop_capybara_link}
+* {rubocop_factory_bot_link}
 * {rubocop_performance_link}
 * {rubocop_thread_safety_link}
 * {rubocop_rake_link}
@@ -268,6 +289,7 @@ When both RuboCop and Caliber are in sync, the following will be output:
 ....
 RUBY: ✓
 CAPYBARA: ✓
+FACTORY_BOT: ✓
 PERFORMANCE: ✓
 THREAD: ✓
 RAKE: ✓
@@ -282,6 +304,7 @@ RUBY:
 * Lint/BinaryOperatorWithIdenticalOperands
 * Lint/ConstantDefinitionInBlock
 CAPYBARA: ✓
+FACTORY_BOT: ✓
 PERFORMANCE: ✓
 THREAD: ✓
 RAKE: ✓
