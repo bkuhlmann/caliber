@@ -13,6 +13,7 @@ keyifier = lambda do |path|
   case path
     when /rubocop-\d+/ then :ruby
     when /capybara/ then :capybara
+    when /factory_bot/ then :factory_bot
     when /performance/ then :performance
     when /thread_safety/ then :thread
     when /rake/ then :rake
@@ -31,7 +32,9 @@ caliber_filter = lambda do |configuration|
                .keys
 end
 
-rubocop = $LOAD_PATH.grep(/rubocop-(\d+|capybara|performance|thread_safety|rake|rspec).*/)
+pattern = /rubocop-(\d+|capybara|factory_bot|performance|thread_safety|rake|rspec).*/
+
+rubocop = $LOAD_PATH.grep(pattern)
                     .sort
                     .map { |path| path.sub(/lib$/, "config/default.yml") }
                     .reduce({}) do |configuration, path|
@@ -40,12 +43,12 @@ rubocop = $LOAD_PATH.grep(/rubocop-(\d+|capybara|performance|thread_safety|rake|
 
 caliber = Bundler.root
                  .join("config")
-                 .glob("{ruby,capybara,performance,thread,rake,rspec}*.yml")
+                 .glob("{ruby,capybara,factory_bot,performance,thread,rake,rspec}*.yml")
                  .reduce({}) do |configuration, path|
                    configuration.merge path.name.to_s.to_sym => YAML.safe_load(path.read)
                  end
 
-%i[ruby capybara performance thread rake rspec].each do |kind|
+%i[ruby capybara factory_bot performance thread rake rspec].each do |kind|
   rubocop_analyzers = rubocop_filter.call rubocop[kind]
   caliber_analyzers = caliber_filter.call caliber[kind]
   intersection = rubocop_analyzers.intersection caliber_analyzers
