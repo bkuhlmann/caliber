@@ -347,6 +347,8 @@ Style/RedundantStringEscape:
 Style/RedundantInitialize:
   Enabled: true
   AllowComments: false
+Style/ExactRegexpMatch:
+  Enabled: true
 Style/ReturnNil:
   Enabled: true
 Style/RequireOrder:
