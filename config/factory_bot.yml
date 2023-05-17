@@ -1,5 +1,7 @@
 require: rubocop-factory_bot
 
+FactoryBot/AssociationStyle:
+  Enabled: true
 FactoryBot/ConsistentParenthesesStyle:
   Enabled: true
   EnforcedStyle: omit_parentheses
