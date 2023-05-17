@@ -1,5 +1,11 @@
 = Versions
 
+== 0.34.0 (2023-05-17)
+
+* Added FactoryBot/AssociationStyle - Brooke Kuhlmann
+* Added FactoryBot/FactoryAssociationWithStrategy - Brooke Kuhlmann
+* Added FactoryBot/RedundantFactoryOption - Brooke Kuhlmann
+
 == 0.33.0 (2023-05-13)
 
 * Added Style/ExactRegexpMatch - Brooke Kuhlmann
