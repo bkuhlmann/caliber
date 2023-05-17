@@ -5,6 +5,8 @@ FactoryBot/AssociationStyle:
 FactoryBot/ConsistentParenthesesStyle:
   Enabled: true
   EnforcedStyle: omit_parentheses
+FactoryBot/FactoryAssociationWithStrategy:
+  Enabled: true
 FactoryBot/FactoryNameStyle:
   Enabled: true
 FactoryBot/SyntaxMethods:
