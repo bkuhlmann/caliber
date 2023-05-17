@@ -9,5 +9,7 @@ FactoryBot/FactoryAssociationWithStrategy:
   Enabled: true
 FactoryBot/FactoryNameStyle:
   Enabled: true
+FactoryBot/RedundantFactoryOption:
+  Enabled: true
 FactoryBot/SyntaxMethods:
   Enabled: false
