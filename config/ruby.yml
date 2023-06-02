@@ -330,6 +330,8 @@ Style/QuotedSymbols:
   Enabled: true
 Style/RedundantArgument:
   Enabled: true
+Style/RedundantArrayConstructor:
+  Enabled: true
 Style/RedundantConstantBase:
   Enabled: true
 Style/RedundantDoubleSplatHashBraces:
