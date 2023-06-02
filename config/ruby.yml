@@ -338,6 +338,8 @@ Style/RedundantDoubleSplatHashBraces:
   Enabled: true
 Style/RedundantEach:
   Enabled: true
+Style/RedundantFilterChain:
+  Enabled: true
 Style/RedundantHeredocDelimiterQuotes:
   Enabled: true
 Style/RedundantLineContinuation:
