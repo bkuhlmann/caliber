@@ -1,5 +1,13 @@
 = Versions
 
+== 0.35.0 (2023-06-02)
+
+* Added Style/RedundantArrayConstructor - Brooke Kuhlmann
+* Added Style/RedundantFilterChain - Brooke Kuhlmann
+* Added Style/RedundantRegexpConstructor - Brooke Kuhlmann
+* Updated to RuboCop 1.52.0 - Brooke Kuhlmann
+* Updated to RuboCop Performance 1.18.0 - Brooke Kuhlmann
+
 == 0.34.0 (2023-05-17)
 
 * Added FactoryBot/AssociationStyle - Brooke Kuhlmann
