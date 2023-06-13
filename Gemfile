@@ -7,13 +7,13 @@ source "https://rubygems.org"
 gemspec
 
 group :code_quality do
-  gem "git-lint", "~> 5.0"
+  # gem "git-lint", "~> 5.0"
   gem "reek", "~> 6.1", require: false
   gem "simplecov", "~> 0.22", require: false
 end
 
 group :development, :test do
-  gem "refinements", "~> 10.0"
+  gem "refinements", "~> 11.0"
 end
 
 group :development do
