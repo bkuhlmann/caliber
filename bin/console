@@ -4,7 +4,6 @@
 require "bundler/setup"
 Bundler.require :tools
 
-require_relative "../lib/caliber"
 require "irb"
 
 IRB.start __FILE__
