@@ -5,6 +5,7 @@
 :rubocop_link: link:https://docs.rubocop.org/rubocop[RuboCop]
 :rubocop_capybara_link: link:https://docs.rubocop.org/rubocop-capybara[RuboCop Capybara]
 :rubocop_factory_bot_link: link:https://docs.rubocop.org/rubocop-factory_bot/[RuboCop FactoryBot]
+:rubocop_packaging_link: link:https://docs.rubocop.org/rubocop-packaging[RuboCop Packaging]
 :rubocop_performance_link: link:https://docs.rubocop.org/rubocop-performance[RuboCop Performance]
 :rubocop_thread_safety_link: link:https://github.com/rubocop/rubocop-thread_safety[RuboCop Thread Safety]
 :rubocop_rake_link: link:https://docs.rubocop.org/rubocop-rspec[RuboCop Rake]
@@ -25,6 +26,7 @@ toc::[]
 ** {rubocop_link}
 ** {rubocop_capybara_link}
 ** {rubocop_factory_bot_link}
+** {rubocop_packaging_link}
 ** {rubocop_performance_link}
 ** {rubocop_thread_safety_link}
 ** {rubocop_rake_link}
@@ -33,8 +35,6 @@ toc::[]
 == Requirements
 
 * link:https://www.ruby-lang.org[Ruby]
-* link:https://github.com/ruby/rake[Rake]
-* link:https://rspec.info[RSpec]
 
 == Setup
 
@@ -94,6 +94,7 @@ inherit_gem:
     - config/ruby.yml
     - config/capybara.yml
     - config/factory_bot.yml
+    - config/packaging.yml
     - config/performance.yml
     - config/thread.yml
     - config/rake.yml
@@ -118,6 +119,7 @@ The above will require and load the configurations for following gems:
 * {rubocop_link}
 * {rubocop_capybara_link}
 * {rubocop_factory_bot_link}
+* {rubocop_packaging_link}
 * {rubocop_performance_link}
 * {rubocop_thread_safety_link}
 * {rubocop_rake_link}
@@ -161,6 +163,17 @@ inherit_gem:
 The above will only require the {rubocop_factory_bot_link} gem _and_ load the associated configuration.
 
 💡 This is a dependency of {rubocop_rspec_link} so doesn't need to be directly required if already requiring {rubocop_rspec_link}.
+
+*Packaging*
+
+[source,yaml]
+----
+inherit_gem:
+  caliber:
+    - config/packaging.yml
+----
+
+The above will only require the {rubocop_packaging_link} gem _and_ load the associated configuration.
 
 *Performance*
 
@@ -226,6 +239,7 @@ inherit_from:
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/ruby.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/capybara.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/factory_bot.yml
+  - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/packaging.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/performance.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/thread.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/rake.yml
@@ -239,6 +253,7 @@ Lastly, when using this YAML import approach, you'll not benefit from having all
 * {rubocop_link}
 * {rubocop_capybara_link}
 * {rubocop_factory_bot_link}
+* {rubocop_packaging_link}
 * {rubocop_performance_link}
 * {rubocop_thread_safety_link}
 * {rubocop_rake_link}
@@ -290,6 +305,7 @@ When both RuboCop and Caliber are in sync, the following will be output:
 RUBY: ✓
 CAPYBARA: ✓
 FACTORY_BOT: ✓
+PACKAGING: ✓
 PERFORMANCE: ✓
 THREAD: ✓
 RAKE: ✓
@@ -305,6 +321,7 @@ RUBY:
 * Lint/ConstantDefinitionInBlock
 CAPYBARA: ✓
 FACTORY_BOT: ✓
+PACKAGING: ✓
 PERFORMANCE: ✓
 THREAD: ✓
 RAKE: ✓
