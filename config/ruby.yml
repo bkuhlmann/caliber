@@ -395,5 +395,7 @@ Style/SwapValues:
   Enabled: true
 Style/TopLevelMethodDefinition:
   Enabled: true
+Style/YAMLFileRead:
+  Enabled: true
 Style/YodaExpression:
   Enabled: true
