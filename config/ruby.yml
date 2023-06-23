@@ -365,6 +365,8 @@ Style/ExactRegexpMatch:
   Enabled: true
 Style/ReturnNil:
   Enabled: true
+Style/ReturnNilInPredicateMethodDefinition:
+  Enabled: true
 Style/RequireOrder:
   Enabled: true
 Style/SafeNavigation:
