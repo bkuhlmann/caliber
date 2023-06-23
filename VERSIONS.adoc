@@ -1,5 +1,21 @@
 = Versions
 
+== 0.36.0 (2023-06-23)
+
+* Fixed RuboCop Packaging/BundlerSetupInTests issues - Brooke Kuhlmann
+* Added Lint/MixedCaseRange - Brooke Kuhlmann
+* Added Lint/RedundantRegexpQuantifiers - Brooke Kuhlmann
+* Added Packaging to check script - Brooke Kuhlmann
+* Added RuboCop Packaging gem - Brooke Kuhlmann
+* Added Style/RedundantCurrentDirectoryInPath - Brooke Kuhlmann
+* Added Style/RedundantRegexpArgument - Brooke Kuhlmann
+* Added Style/ReturnNilInPredicateMethodDefinition - Brooke Kuhlmann
+* Added Style/YAMLFileRead - Brooke Kuhlmann
+* Updated Rake RSpec task configuration to not be verbose - Brooke Kuhlmann
+* Updated to Git Lint 6.0.0 - Brooke Kuhlmann
+* Updated to Refinements 11.0.0 - Brooke Kuhlmann
+* Updated to RuboCop 1.53.0 - Brooke Kuhlmann
+
 == 0.35.0 (2023-06-02)
 
 * Added Style/RedundantArrayConstructor - Brooke Kuhlmann
