@@ -64,6 +64,8 @@ RSpec/NoExpectationExample:
   Enabled: true
 RSpec/PendingWithoutReason:
   Enabled: true
+RSpec/ReceiveMessages:
+  Enabled: true
 RSpec/RedundantAround:
   Enabled: true
 RSpec/Rails/AvoidSetupHook:
