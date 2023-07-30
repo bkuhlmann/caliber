@@ -1,5 +1,12 @@
 = Versions
 
+== 0.37.0 (2023-07-30)
+
+* Added RSpec/Rails/NegationBeValid - Brooke Kuhlmann
+* Added RSpec/ReceiveMessages - Brooke Kuhlmann
+* Updated to RuboCop 1.55.0 - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.23.0 - Brooke Kuhlmann
+
 == 0.36.0 (2023-06-23)
 
 * Fixed RuboCop Packaging/BundlerSetupInTests issues - Brooke Kuhlmann
