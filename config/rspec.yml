@@ -76,6 +76,9 @@ RSpec/Rails/InferredSpecType:
   Enabled: true
 RSpec/Rails/MinitestAssertions:
   Enabled: true
+RSpec/Rails/NegationBeValid:
+  Enabled: true
+  EnforcedStyle: be_invalid
 RSpec/Rails/TravelAround:
   Enabled: true
 RSpec/SkipBlockInsideExample:
