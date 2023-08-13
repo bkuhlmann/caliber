@@ -1,5 +1,11 @@
 = Versions
 
+== 0.38.0 (2023-08-13)
+
+* Added Performance/MapMethodChain - Brooke Kuhlmann
+* Updated to RuboCop 1.56.0 - Brooke Kuhlmann
+* Updated to RuboCop Performance 1.19.0 - Brooke Kuhlmann
+
 == 0.37.0 (2023-07-30)
 
 * Added RSpec/Rails/NegationBeValid - Brooke Kuhlmann
