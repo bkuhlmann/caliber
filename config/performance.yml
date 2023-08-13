@@ -16,6 +16,8 @@ Performance/IoReadlines:
   Enabled: true
 Performance/MapCompact:
   Enabled: true
+Performance/MapMethodChain:
+  Enabled: true
 Performance/MethodObjectAsBlock:
   Enabled: true
 Performance/OpenStruct:
