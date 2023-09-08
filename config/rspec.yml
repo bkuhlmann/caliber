@@ -44,6 +44,8 @@ RSpec/Dialect:
     subject!: subject
 RSpec/DuplicatedMetadata:
   Enabled: true
+RSpec/EmptyMetadata:
+  Enabled: true
 RSpec/ExampleLength:
   Max: 10
   CountAsOne:
