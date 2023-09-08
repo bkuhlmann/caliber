@@ -52,6 +52,8 @@ RSpec/ExampleLength:
     - heredoc
 RSpec/ExcessiveDocstringSpacing:
   Enabled: true
+RSpec/Eq:
+  Enabled: true
 RSpec/IdenticalEqualityAssertion:
   Enabled: true
 RSpec/IndexedLet:
