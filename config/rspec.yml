@@ -60,6 +60,8 @@ RSpec/IndexedLet:
   Enabled: true
 RSpec/MatchArray:
   Enabled: true
+RSpec/MetadataStyle:
+  Enabled: true
 RSpec/NamedSubject:
   IgnoreSharedExamples: false
 RSpec/NoExpectationExample:
