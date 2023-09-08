@@ -93,6 +93,8 @@ RSpec/SortMetadata:
   Enabled: true
 RSpec/SpecFilePathFormat:
   Enabled: true
+RSpec/SpecFilePathSuffix:
+  Enabled: true
 RSpec/SubjectDeclaration:
   Enabled: true
 RSpec/VerifiedDoubleReference:
