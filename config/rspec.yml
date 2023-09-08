@@ -91,6 +91,8 @@ RSpec/SkipBlockInsideExample:
   Enabled: true
 RSpec/SortMetadata:
   Enabled: true
+RSpec/SpecFilePathFormat:
+  Enabled: true
 RSpec/SubjectDeclaration:
   Enabled: true
 RSpec/VerifiedDoubleReference:
