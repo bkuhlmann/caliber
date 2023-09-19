@@ -9,6 +9,8 @@ FactoryBot/FactoryAssociationWithStrategy:
   Enabled: true
 FactoryBot/FactoryNameStyle:
   Enabled: true
+FactoryBot/IdSequence:
+  Enabled: true
 FactoryBot/RedundantFactoryOption:
   Enabled: true
 FactoryBot/SyntaxMethods:
