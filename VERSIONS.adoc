@@ -1,5 +1,12 @@
 = Versions
 
+== 0.40.0 (2023-09-20)
+
+* Added Capybara/ClickLinkOrButtonStyle - Brooke Kuhlmann
+* Added Capybara/RSpec/HaveSelector - Brooke Kuhlmann
+* Added Capybara/RSpec/PredicateMatcher - Brooke Kuhlmann
+* Added FactoryBot/IdSequence - Brooke Kuhlmann
+
 == 0.39.0 (2023-09-08)
 
 * Added RSpec/EmptyMetadata - Brooke Kuhlmann
