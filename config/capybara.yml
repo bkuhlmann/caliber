@@ -8,6 +8,8 @@ Capybara/NegationMatcher:
   Enabled: true
 Capybara/RSpec/HaveSelector:
   Enabled: true
+Capybara/RSpec/PredicateMatcher:
+  Enabled: true
 Capybara/SpecificActions:
   Enabled: true
 Capybara/SpecificFinders:
