@@ -1,5 +1,7 @@
 require: rubocop-capybara
 
+Capybara/ClickLinkOrButtonStyle:
+  Enabled: true
 Capybara/MatchStyle:
   Enabled: true
 Capybara/NegationMatcher:
