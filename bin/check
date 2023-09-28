@@ -13,6 +13,7 @@ keyifier = lambda do |path|
   case path
     when /rubocop-\d+/ then :ruby
     when /capybara/ then :capybara
+    when /disable_syntax/ then :disable_syntax
     when /factory_bot/ then :factory_bot
     when /packaging/ then :packaging
     when /performance/ then :performance
@@ -33,7 +34,29 @@ caliber_filter = lambda do |configuration|
                .keys
 end
 
-pattern = /rubocop-(\d+|capybara|factory_bot|packaging|performance|thread_safety|rake|rspec).*/
+pattern = /
+  rubocop-         # RuboCop prefix.
+  (                # Start of conditional.
+  \d+              # Version.
+  |                # Or.
+  capybara         # Capybara.
+  |                # Or.
+  disable_syntax   # Disable Syntax.
+  |                # Or.
+  factory_bot      # Factory Bot.
+  |                # Or.
+  packaging        # Packaging.
+  |                # Or.
+  performance      # Performance.
+  |                # Or.
+  thread_safety    # Thread Safety.
+  |                # Or.
+  rake             # Rake.
+  |                # Or.
+  rspec            # RSpec.
+  )                # End of conditional.
+  .*               # Zero or more characters.
+/x
 
 rubocop = $LOAD_PATH.grep(pattern)
                     .sort
@@ -42,14 +65,16 @@ rubocop = $LOAD_PATH.grep(pattern)
                       configuration.merge keyifier.call(path) => YAML.unsafe_load_file(path)
                     end
 
+glob = "{ruby,capybara,disable_syntax,factory_bot,packaging,performance,thread,rake,rspec}*.yml"
+
 caliber = Bundler.root
                  .join("config")
-                 .glob("{ruby,capybara,factory_bot,packaging,performance,thread,rake,rspec}*.yml")
+                 .glob(glob)
                  .reduce({}) do |configuration, path|
                    configuration.merge path.name.to_s.to_sym => YAML.safe_load(path.read)
                  end
 
-%i[ruby capybara factory_bot packaging performance thread rake rspec].each do |kind|
+%i[ruby capybara disable_syntax factory_bot packaging performance thread rake rspec].each do |kind|
   rubocop_analyzers = rubocop_filter.call rubocop[kind]
   caliber_analyzers = caliber_filter.call caliber[kind]
   intersection = rubocop_analyzers.intersection caliber_analyzers
