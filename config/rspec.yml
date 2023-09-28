@@ -56,6 +56,8 @@ RSpec/ExcessiveDocstringSpacing:
   Enabled: true
 RSpec/Eq:
   Enabled: true
+RSpec/FilePath:
+  Enabled: false
 RSpec/IdenticalEqualityAssertion:
   Enabled: true
 RSpec/IndexedLet:
