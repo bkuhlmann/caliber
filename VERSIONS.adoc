@@ -1,5 +1,12 @@
 = Versions
 
+== 0.41.0 (2023-09-28)
+
+* Added Disable Syntax to check script - Brooke Kuhlmann
+* Added RSpec/FilePath disablement - Brooke Kuhlmann
+* Added RuboCop Disable Syntax configuration - Brooke Kuhlmann
+* Added RuboCop Disable Syntax gem - Brooke Kuhlmann
+
 == 0.40.0 (2023-09-20)
 
 * Added Capybara/ClickLinkOrButtonStyle - Brooke Kuhlmann
