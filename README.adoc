@@ -4,6 +4,7 @@
 
 :rubocop_link: link:https://docs.rubocop.org/rubocop[RuboCop]
 :rubocop_capybara_link: link:https://docs.rubocop.org/rubocop-capybara[RuboCop Capybara]
+:rubocop_disable_syntax_link: link:https://github.com/fatkodima/rubocop-disable_syntax[RuboCop Disable Syntax]
 :rubocop_factory_bot_link: link:https://docs.rubocop.org/rubocop-factory_bot/[RuboCop FactoryBot]
 :rubocop_packaging_link: link:https://docs.rubocop.org/rubocop-packaging[RuboCop Packaging]
 :rubocop_performance_link: link:https://docs.rubocop.org/rubocop-performance[RuboCop Performance]
@@ -25,6 +26,7 @@ toc::[]
 * Provides a global configuration for the following code quality gems:
 ** {rubocop_link}
 ** {rubocop_capybara_link}
+** {rubocop_disable_syntax_link}
 ** {rubocop_factory_bot_link}
 ** {rubocop_packaging_link}
 ** {rubocop_performance_link}
@@ -93,6 +95,7 @@ inherit_gem:
   caliber:
     - config/ruby.yml
     - config/capybara.yml
+    - config/disable_syntax.yml
     - config/factory_bot.yml
     - config/packaging.yml
     - config/performance.yml
@@ -118,6 +121,7 @@ The above will require and load the configurations for following gems:
 
 * {rubocop_link}
 * {rubocop_capybara_link}
+* {rubocop_disable_syntax_link}
 * {rubocop_factory_bot_link}
 * {rubocop_packaging_link}
 * {rubocop_performance_link}
@@ -150,6 +154,17 @@ inherit_gem:
 The above will only require the {rubocop_capybara_link} gem _and_ load the associated configuration.
 
 💡 This is a dependency of {rubocop_rspec_link} so doesn't need to be directly required if already requiring {rubocop_rspec_link}.
+
+*Disable Syntax*
+
+[source,yaml]
+----
+inherit_gem:
+  caliber:
+    - config/disable_syntax.yml
+----
+
+The above will only require the {rubocop_disable_syntax_link} gem _and_ load the associated configuration.
 
 *FactoryBot*
 
@@ -238,6 +253,7 @@ If importing all configurations from `all.yml` is too much -- and much like you 
 inherit_from:
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/ruby.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/capybara.yml
+  - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/disable_syntax.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/factory_bot.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/packaging.yml
   - https://raw.githubusercontent.com/bkuhlmann/caliber/main/config/performance.yml
@@ -252,6 +268,7 @@ Lastly, when using this YAML import approach, you'll not benefit from having all
 
 * {rubocop_link}
 * {rubocop_capybara_link}
+* {rubocop_disable_syntax_link}
 * {rubocop_factory_bot_link}
 * {rubocop_packaging_link}
 * {rubocop_performance_link}
@@ -304,6 +321,7 @@ When both RuboCop and Caliber are in sync, the following will be output:
 ....
 RUBY: ✓
 CAPYBARA: ✓
+DISABLE_SYNTAX: ✓
 FACTORY_BOT: ✓
 PACKAGING: ✓
 PERFORMANCE: ✓
@@ -320,6 +338,7 @@ RUBY:
 * Lint/BinaryOperatorWithIdenticalOperands
 * Lint/ConstantDefinitionInBlock
 CAPYBARA: ✓
+DISABLE_SYNTAX: ✓
 FACTORY_BOT: ✓
 PACKAGING: ✓
 PERFORMANCE: ✓

@@ -1,0 +1,6 @@
+require: rubocop-disable_syntax
+
+Style/DisableSyntax:
+  DisableSyntax:
+    - safe_navigation
+    - numbered_parameters
