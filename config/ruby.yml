@@ -377,6 +377,8 @@ Style/Send:
   Enabled: true
 Style/SignalException:
   EnforcedStyle: semantic
+Style/SingleLineDoEndBlock:
+  Enabled: true
 Style/StabbyLambdaParentheses:
   EnforcedStyle: require_no_parentheses
 Style/StaticClass:
