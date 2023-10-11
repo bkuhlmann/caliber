@@ -1,5 +1,12 @@
 = Versions
 
+== 0.42.0 (2023-10-11)
+
+* Added Style/SingleLineDoEndBlock - Brooke Kuhlmann
+* Updated GitHub issue template with simplified sections - Brooke Kuhlmann
+* Updated to RuboCop 1.57.0 - Brooke Kuhlmann
+* Refactored Gemfile to use ruby file syntax - Brooke Kuhlmann
+
 == 0.41.0 (2023-09-28)
 
 * Added Disable Syntax to check script - Brooke Kuhlmann
