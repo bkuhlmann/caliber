@@ -276,6 +276,10 @@ Style/InvertibleUnlessCondition:
   Enabled: true
 Style/IpAddresses:
   Enabled: true
+  AllowedAddresses:
+    - "::"
+    - "::1"
+    - "127.0.0.1"
 Style/MagicCommentFormat:
   Enabled: true
 Style/MapCompactWithConditionalBlock:
