@@ -1,5 +1,10 @@
 = Versions
 
+== 0.43.0 (2023-11-14)
+
+* Added Style/IpAddresses allowed addresses - Brooke Kuhlmann
+* Updated Gemfile to support next minor Ruby version - Brooke Kuhlmann
+
 == 0.42.0 (2023-10-11)
 
 * Added Style/SingleLineDoEndBlock - Brooke Kuhlmann
