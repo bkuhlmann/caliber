@@ -70,7 +70,7 @@ You'll want to start with your `Gemfile` by adding the following:
 
 [source,ruby]
 ----
-group :code_quality do
+group :quality do
   gem "caliber"
 end
 ----
