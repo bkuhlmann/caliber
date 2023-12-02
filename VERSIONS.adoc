@@ -1,5 +1,12 @@
 = Versions
 
+== 0.44.0 (2023-12-02)
+
+* Added Lint/LiteralAssignmentInCondition - Brooke Kuhlmann
+* Added Style/SuperWithArgsParentheses - Brooke Kuhlmann
+* Updated Performance/BlockGivenWithExplicitBlock to be disabled - Brooke Kuhlmann
+* Updated to RuboCop 1.58.0 - Brooke Kuhlmann
+
 == 0.43.0 (2023-11-14)
 
 * Added Style/IpAddresses allowed addresses - Brooke Kuhlmann
