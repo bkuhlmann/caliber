@@ -132,6 +132,8 @@ Lint/IncompatibleIoSelectWithFiberScheduler:
   Enabled: true
 Lint/LambdaWithoutLiteralBlock:
   Enabled: true
+Lint/LiteralAssignmentInCondition:
+  Enabled: true
 Lint/MixedCaseRange:
   Enabled: true
 Lint/NonAtomicFileOperation:
