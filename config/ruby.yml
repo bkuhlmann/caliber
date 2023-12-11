@@ -130,6 +130,8 @@ Lint/EmptyWhen:
   AllowComments: false
 Lint/IncompatibleIoSelectWithFiberScheduler:
   Enabled: true
+Lint/ItWithoutArgumentsInBlock:
+  Enabled: true
 Lint/LambdaWithoutLiteralBlock:
   Enabled: true
 Lint/LiteralAssignmentInCondition:
