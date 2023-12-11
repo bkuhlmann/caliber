@@ -1,5 +1,11 @@
 = Versions
 
+== 0.45.0 (2023-12-11)
+
+* Added Lint/ItWithoutArgumentsInBlock - Brooke Kuhlmann
+* Updated Circle CI step names - Brooke Kuhlmann
+* Updated to RuboCop 1.59.0 - Brooke Kuhlmann
+
 == 0.44.0 (2023-12-02)
 
 * Added Lint/LiteralAssignmentInCondition - Brooke Kuhlmann
