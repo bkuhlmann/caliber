@@ -1,5 +1,9 @@
 = Versions
 
+== 0.46.0 (2023-12-16)
+
+Updated to RuboCop Performance 1.20.0 - Brooke Kuhlmann
+
 == 0.45.0 (2023-12-11)
 
 * Added Lint/ItWithoutArgumentsInBlock - Brooke Kuhlmann
