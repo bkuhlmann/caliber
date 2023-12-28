@@ -6,8 +6,8 @@ Bundler.require :development, :tools
 
 require "rubocop"
 
-using Refinements::Pathnames
-using Refinements::Strings
+using Refinements::Pathname
+using Refinements::String
 
 keyifier = lambda do |path|
   case path

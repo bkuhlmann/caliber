@@ -7,17 +7,17 @@ source "https://rubygems.org"
 gemspec
 
 group :quality do
-  gem "git-lint", "~> 6.0"
-  gem "reek", "~> 6.1", require: false
+  # gem "git-lint", "~> 7.0"
+  gem "reek", "~> 6.2", require: false
   gem "simplecov", "~> 0.22", require: false
 end
 
 group :development, :test do
-  gem "refinements", "~> 11.0"
+  gem "refinements", "~> 12.0"
 end
 
 group :development do
-  gem "rake", "~> 13.0"
+  gem "rake", "~> 13.1"
 end
 
 group :test do
@@ -26,6 +26,6 @@ group :test do
 end
 
 group :tools do
-  gem "amazing_print", "~> 1.4"
-  gem "debug", "~> 1.8"
+  gem "amazing_print", "~> 1.5"
+  gem "debug", "~> 1.9"
 end
