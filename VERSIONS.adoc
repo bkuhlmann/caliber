@@ -1,5 +1,13 @@
 = Versions
 
+== 0.47.0 (2024-01-01)
+
+* Updated Circle CI Rake step name - Brooke Kuhlmann
+* Updated gem dependencies - Brooke Kuhlmann
+* Updated to Ruby 3.3.0 - Brooke Kuhlmann
+* Removed Gemfile code prefix from quality group - Brooke Kuhlmann
+* Removed Rakefile code prefix from quality task - Brooke Kuhlmann
+
 == 0.46.0 (2023-12-16)
 
 Updated to RuboCop Performance 1.20.0 - Brooke Kuhlmann
