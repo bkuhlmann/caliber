@@ -1,5 +1,11 @@
 = Versions
 
+== 0.48.0 (2024-01-03)
+
+* Added Capybara/RedundantWithinFind - Brooke Kuhlmann
+* Updated to Git Lint 7.0.0 - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.25.0 - Brooke Kuhlmann
+
 == 0.47.0 (2024-01-01)
 
 * Updated Circle CI Rake step name - Brooke Kuhlmann
