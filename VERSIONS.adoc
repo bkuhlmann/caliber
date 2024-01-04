@@ -1,5 +1,12 @@
 = Versions
 
+== 0.49.0 (2024-01-04)
+
+* Added FactoryBot/ExcessiveCreateList - Brooke Kuhlmann
+* Added RSpec/RedundantPredicateMatcher - Brooke Kuhlmann
+* Added RSpec/RemoveConst - Brooke Kuhlmann
+* Updated to RuboCop RSpec 2.26.0 - Brooke Kuhlmann
+
 == 0.48.0 (2024-01-03)
 
 * Added Capybara/RedundantWithinFind - Brooke Kuhlmann
