@@ -5,6 +5,9 @@ FactoryBot/AssociationStyle:
 FactoryBot/ConsistentParenthesesStyle:
   Enabled: true
   EnforcedStyle: omit_parentheses
+FactoryBot/ExcessiveCreateList:
+  Enabled: true
+  MaxAmount: 5
 FactoryBot/FactoryAssociationWithStrategy:
   Enabled: true
 FactoryBot/FactoryNameStyle:
