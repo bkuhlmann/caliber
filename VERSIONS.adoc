@@ -1,5 +1,11 @@
 = Versions
 
+== 0.50.0 (2024-01-28)
+
+* 🟢 Added repl_type_completor gem - Brooke Kuhlmann
+* 🔼 Updated to Reek 6.3.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop 1.60.2 - Brooke Kuhlmann
+
 == 0.49.0 (2024-01-04)
 
 * Added FactoryBot/ExcessiveCreateList - Brooke Kuhlmann
