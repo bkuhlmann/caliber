@@ -82,6 +82,8 @@ RSpec/RedundantPredicateMatcher:
   Enabled: true
 RSpec/RemoveConst:
   Enabled: true
+RSpec/RepeatedSubjectCall:
+  Enabled: true
 RSpec/Rails/AvoidSetupHook:
   Enabled: true
 RSpec/Rails/HaveHttpStatus:
