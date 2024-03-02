@@ -1,5 +1,13 @@
 = Versions
 
+== 0.51.0 (2024-03-02)
+
+* 🟢 Added RSpec/IsExpectedSpecify - Brooke Kuhlmann
+* 🟢 Added RSpec/RepeatedSubjectCall - Brooke Kuhlmann
+* 🔼 Updated RuboCop to use XDG local configuration - Brooke Kuhlmann
+* 🔼 Updated to RuboCop 1.61.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop RSpec 2.27.0 - Brooke Kuhlmann
+
 == 0.50.0 (2024-01-28)
 
 * 🟢 Added repl_type_completor gem - Brooke Kuhlmann
