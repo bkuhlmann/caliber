@@ -1,0 +1,82 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+require "pathname"
+
+PATHS = {
+  xdg_config: ".config/rubocop/config.yml",
+  xdg_issues: ".config/rubocop/issues.yml",
+  config: ".rubocop.yml",
+  todo: ".rubocop_todo.yml"
+}.freeze
+
+class Updater
+  def initialize root: Pathname.pwd, paths: PATHS
+    @root = root
+    @paths = paths
+  end
+
+  def call
+    prompt
+    check_xdg_configuration
+    check_standard_configuration
+    copy_configuration
+    remove_inheritance
+    generate_issues
+    apply_changes
+  end
+
+  private
+
+  attr_reader :root, :paths
+
+  def prompt
+    puts "Update RuboCop configuration with outstanding issues (y/n)?"
+
+    return if gets.chomp == "y"
+
+    puts "RuboCop configuration update canceled."
+    exit
+  end
+
+  def check_xdg_configuration
+    return if full_path(:xdg_config).exist?
+
+    abort "RuboCop XDG configuration must exist before proceeding."
+  end
+
+  def check_standard_configuration
+    return unless full_path(:config).exist?
+
+    abort "RuboCop configuration exists. Please use a XDG configuration instead."
+  end
+
+  def copy_configuration = full_path(:config).write full_path(:xdg_config).read
+
+  def generate_issues = system "bundle exec rubocop --auto-gen-config"
+
+  def remove_inheritance
+    full_path(:config).then do |path|
+      content = path.read.sub(/inherit_from:\s(issues|\.rubocop_todo.).yml/, "")
+      path.write content
+    end
+  end
+
+  def apply_changes
+    config_path = full_path :config
+    todo_path = full_path :todo
+
+    if todo_path.empty?
+      puts "No changes were detected."
+    else
+      full_path(:xdg_issues).write todo_path.read
+    end
+
+    config_path.delete
+    todo_path.delete
+  end
+
+  def full_path(key) = root.join(paths.fetch(key))
+end
+
+Updater.new.call

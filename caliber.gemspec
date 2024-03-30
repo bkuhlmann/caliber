@@ -31,6 +31,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop-rspec", "~> 2.27.1"
   spec.add_dependency "rubocop-thread_safety", "~> 0.5"
 
+  spec.bindir = "exe"
+  spec.executables << "caliber"
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
   spec.files = Dir["*.gemspec", "config/**/*", "lib/**/*"]
 end
