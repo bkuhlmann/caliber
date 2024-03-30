@@ -2,15 +2,16 @@
 :toclevels: 5
 :figure-caption!:
 
-:rubocop_link: link:https://docs.rubocop.org/rubocop[RuboCop]
 :rubocop_capybara_link: link:https://docs.rubocop.org/rubocop-capybara[RuboCop Capybara]
 :rubocop_disable_syntax_link: link:https://github.com/fatkodima/rubocop-disable_syntax[RuboCop Disable Syntax]
 :rubocop_factory_bot_link: link:https://docs.rubocop.org/rubocop-factory_bot/[RuboCop FactoryBot]
+:rubocop_link: link:https://docs.rubocop.org/rubocop[RuboCop]
 :rubocop_packaging_link: link:https://docs.rubocop.org/rubocop-packaging[RuboCop Packaging]
 :rubocop_performance_link: link:https://docs.rubocop.org/rubocop-performance[RuboCop Performance]
-:rubocop_thread_safety_link: link:https://github.com/rubocop/rubocop-thread_safety[RuboCop Thread Safety]
 :rubocop_rake_link: link:https://docs.rubocop.org/rubocop-rspec[RuboCop Rake]
 :rubocop_rspec_link: link:https://docs.rubocop.org/rubocop-rspec[RuboCop RSpec]
+:rubocop_thread_safety_link: link:https://github.com/rubocop/rubocop-thread_safety[RuboCop Thread Safety]
+:xdg_configuration_link: link:https://alchemists.io/articles/xdg_base_directory_specification[XDG Base Directory Specification]
 
 = Caliber
 
@@ -290,6 +291,26 @@ require:
 ----
 
 Adding additional RuboCop gems only requires adding them to your YAML configuration.
+
+=== Command Line Interface (CLI)
+
+⚠️ This is experimental but might be of interest to anyone using RuboCop's local {xdg_configuration_link} (highly recommend).
+
+At the moment, RuboCop doesn't have native functionality for handling these updates and this CLI is one solution to that problem (see this link:https://github.com/rubocop/rubocop/issues/12729[issue] for details). So this CLI automates the updating of outstanding issues you have not resolved for your RuboCop configuration (i.e. `.rubocop_todo.yml`) and is handy when you've fixed issues and want to update your configuration to reflect these changes. The CLI assumes you are using the following structure:
+
+....
+.config/rubocop/config.yml
+.config/rubocop/issues.yml
+....
+
+...and that you have this line in `.config/rubocop/config.yml`:
+
+[source,yaml]
+----
+inherit_from: issues.yml
+----
+
+Assuming the above is true, you can run the `caliber` CLI and follow the prompts for either updating your outstanding issues or exiting. Upon competition, the CLI will update your `.config/rubocop/issues.yml` so you can commit these updates/changes to your repository.
 
 == Development
 

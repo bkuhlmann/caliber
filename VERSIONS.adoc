@@ -1,5 +1,16 @@
 = Versions
 
+== 0.52.0 (2024-03-30)
+
+* 🟢 Added caliber CLI - Brooke Kuhlmann
+* 🔼 Updated setup script as a Ruby script - Brooke Kuhlmann
+* 🔼 Updated to Amazing Print 1.6.0 - Brooke Kuhlmann
+* 🔼 Updated to Git Lint 7.1.0 - Brooke Kuhlmann
+* 🔼 Updated to RSpec 3.13.0 - Brooke Kuhlmann
+* 🔼 Updated to Refinements 12.1.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop Performance 1.21.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop RSpec 2.27.1 - Brooke Kuhlmann
+
 == 0.51.0 (2024-03-02)
 
 * 🟢 Added RSpec/IsExpectedSpecify - Brooke Kuhlmann
