@@ -1,5 +1,9 @@
 = Versions
 
+== 0.53.0 (2024-04-04)
+
+* 🔼 Updated to RuboCop RSpec 2.28.0 - Brooke Kuhlmann
+
 == 0.52.0 (2024-03-30)
 
 * 🟢 Added caliber CLI - Brooke Kuhlmann
