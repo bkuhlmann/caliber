@@ -109,5 +109,7 @@ RSpec/SpecFilePathSuffix:
   Enabled: true
 RSpec/SubjectDeclaration:
   Enabled: true
+RSpec/UndescriptiveLiteralsDescription:
+  Enabled: true
 RSpec/VerifiedDoubleReference:
   Enabled: true
