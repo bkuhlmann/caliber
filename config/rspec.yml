@@ -46,6 +46,8 @@ RSpec/DuplicatedMetadata:
   Enabled: true
 RSpec/EmptyMetadata:
   Enabled: true
+RSpec/EmptyOutput:
+  Enabled: true
 RSpec/ExampleLength:
   Max: 10
   CountAsOne:
