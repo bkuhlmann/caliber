@@ -1,5 +1,11 @@
 = Versions
 
+== 0.55.0 (2024-04-08)
+
+* 🟢 Added Style/MapIntoArray - Brooke Kuhlmann
+* 🔼 Updated Style/AllowModifiersOnSymbols to prevent modifiers on symbols - Brooke Kuhlmann
+* 🔼 Updated to RuboCop 1.63.0 - Brooke Kuhlmann
+
 == 0.54.0 (2024-04-05)
 
 * 🟢 Added RSpec/EmptyOutput - Brooke Kuhlmann
