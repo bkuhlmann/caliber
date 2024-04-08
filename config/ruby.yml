@@ -211,6 +211,8 @@ Security/CompoundHash:
   Enabled: true
 Security/IoMethods:
   Enabled: true
+Style/AccessModifierDeclarations:
+  AllowModifiersOnSymbols: false
 Style/ArgumentsForwarding:
   Enabled: false
 Style/ArrayCoercion:
