@@ -1,5 +1,17 @@
 = Versions
 
+== 0.56.0 (2024-05-23)
+
+* 🟢 Added IRB Kit gem - Brooke Kuhlmann
+* 🟢 Added Style/SendWithLiteralMethodName - Brooke Kuhlmann
+* 🟢 Added Style/SuperArguments - Brooke Kuhlmann
+* 🔼 Updated RSpec configuration to ignore backtraces in pending specs - Brooke Kuhlmann
+* 🔼 Updated Style/AccessModifierDeclarations to disable attribute modifiers - Brooke Kuhlmann
+* 🔼 Updated to Git Lint 7.3.0 - Brooke Kuhlmann
+* 🔼 Updated to Rake 13.2.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop 1.64.0 - Brooke Kuhlmann
+* 🔼 Updated to Ruby 3.3.1 - Brooke Kuhlmann
+
 == 0.55.0 (2024-04-08)
 
 * 🟢 Added Style/MapIntoArray - Brooke Kuhlmann
