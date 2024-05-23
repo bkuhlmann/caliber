@@ -408,6 +408,8 @@ Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
 Style/StringMethods:
   Enabled: true
+Style/SuperArguments:
+  Enabled: true
 Style/SuperWithArgsParentheses:
   Enabled: false
 Style/SwapValues:
