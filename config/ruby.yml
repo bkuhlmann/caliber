@@ -387,6 +387,9 @@ Style/SelectByRegexp:
   Enabled: true
 Style/Send:
   Enabled: true
+Style/SendWithLiteralMethodName:
+  Enabled: true
+  AllowSend: false
 Style/SignalException:
   EnforcedStyle: semantic
 Style/SingleLineDoEndBlock:
