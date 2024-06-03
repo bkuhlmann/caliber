@@ -1,5 +1,12 @@
 = Versions
 
+== 0.57.0 (2024-06-03)
+
+* 🟢 Added RSpec/ExpectInLet - Brooke Kuhlmann
+* 🔼 Updated citation URLs - Brooke Kuhlmann
+* 🔼 Updated to RuboCop RSpec 2.30.0 - Brooke Kuhlmann
+* 🔼 Updated to Ruby 3.3.2 - Brooke Kuhlmann
+
 == 0.56.0 (2024-05-23)
 
 * 🟢 Added IRB Kit gem - Brooke Kuhlmann
