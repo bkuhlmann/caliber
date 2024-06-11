@@ -14,7 +14,6 @@ keyifier = lambda do |path|
     when /rubocop-\d+/ then :ruby
     when /capybara/ then :capybara
     when /disable_syntax/ then :disable_syntax
-    when /factory_bot/ then :factory_bot
     when /packaging/ then :packaging
     when /performance/ then :performance
     when /thread_safety/ then :thread
@@ -43,8 +42,6 @@ pattern = /
   |                # Or.
   disable_syntax   # Disable Syntax.
   |                # Or.
-  factory_bot      # Factory Bot.
-  |                # Or.
   packaging        # Packaging.
   |                # Or.
   performance      # Performance.
@@ -65,7 +62,7 @@ rubocop = $LOAD_PATH.grep(pattern)
                       configuration.merge keyifier.call(path) => YAML.unsafe_load_file(path)
                     end
 
-glob = "{ruby,capybara,disable_syntax,factory_bot,packaging,performance,thread,rake,rspec}*.yml"
+glob = "{ruby,capybara,disable_syntax,packaging,performance,thread,rake,rspec}*.yml"
 
 caliber = Bundler.root
                  .join("config")
@@ -74,7 +71,7 @@ caliber = Bundler.root
                    configuration.merge path.name.to_s.to_sym => YAML.safe_load(path.read)
                  end
 
-%i[ruby capybara disable_syntax factory_bot packaging performance thread rake rspec].each do |kind|
+%i[ruby capybara disable_syntax packaging performance thread rake rspec].each do |kind|
   rubocop_analyzers = rubocop_filter.call rubocop[kind]
   caliber_analyzers = caliber_filter.call caliber[kind]
   intersection = rubocop_analyzers.intersection caliber_analyzers

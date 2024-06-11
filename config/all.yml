@@ -2,7 +2,6 @@ inherit_from:
   - ruby.yml
   - capybara.yml
   - disable_syntax.yml
-  - factory_bot.yml
   - packaging.yml
   - performance.yml
   - thread.yml
