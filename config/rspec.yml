@@ -86,19 +86,6 @@ RSpec/RemoveConst:
   Enabled: true
 RSpec/RepeatedSubjectCall:
   Enabled: true
-RSpecRails/AvoidSetupHook:
-  Enabled: true
-RSpecRails/HaveHttpStatus:
-  Enabled: true
-RSpecRails/InferredSpecType:
-  Enabled: true
-RSpecRails/MinitestAssertions:
-  Enabled: true
-RSpecRails/NegationBeValid:
-  Enabled: true
-  EnforcedStyle: be_invalid
-RSpecRails/TravelAround:
-  Enabled: true
 RSpec/SkipBlockInsideExample:
   Enabled: true
 RSpec/SortMetadata:
