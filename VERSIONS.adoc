@@ -1,5 +1,14 @@
 = Versions
 
+== 0.58.0 (2024-06-11)
+
+* 🟢 Added RuboCop Capybara gem - Brooke Kuhlmann
+* 🔼 Updated to RuboCop RSpec 3.0.0 - Brooke Kuhlmann
+* ⛔️ Removed RSpec FactoryBot functionality - Brooke Kuhlmann
+* ⛔️ Removed RSpec FilePath cop - Brooke Kuhlmann
+* ⛔️ Removed RSpecRails department - Brooke Kuhlmann
+* ⛔️ Removed RuboCop RSpec cops that are enabled by default - Brooke Kuhlmann
+
 == 0.57.0 (2024-06-03)
 
 * 🟢 Added RSpec/ExpectInLet - Brooke Kuhlmann
