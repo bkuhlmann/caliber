@@ -8,6 +8,8 @@ AllCops:
     - "vendor/**/*"
 Bundler/InsecureProtocolSource:
   AllowHttpProtocol: false
+Gemspec/AddRuntimeDependency:
+  Enabled: true
 Gemspec/DependencyVersion:
   Enabled: true
 Gemspec/DevelopmentDependencies:
