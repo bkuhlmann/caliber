@@ -13,7 +13,7 @@ group :quality do
 end
 
 group :development, :test do
-  gem "refinements", "~> 12.5"
+  gem "refinements", "~> 12.7"
 end
 
 group :development do
