@@ -1,5 +1,14 @@
 = Versions
 
+== 0.60.0 (2024-08-31)
+
+* 🟢 Added Lint/UselessNumericOperation - Brooke Kuhlmann
+* 🟢 Added README Developer Certificate of Origin documentation - Brooke Kuhlmann
+* 🟢 Added Style/RedundantInterpolationUnfreeze - Brooke Kuhlmann
+* 🔼 Updated to Refinements 12.7.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop 1.66.0 - Brooke Kuhlmann
+* ⛔️ Removed Guard - Brooke Kuhlmann
+
 == 0.59.0 (2024-07-10)
 
 * 🟢 Added Gemspec/AddRuntimeDependency - Brooke Kuhlmann
