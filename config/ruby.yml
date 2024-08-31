@@ -378,6 +378,8 @@ Style/RedundantStringEscape:
 Style/RedundantInitialize:
   Enabled: true
   AllowComments: false
+Style/RedundantInterpolationUnfreeze:
+  Enabled: true
 Style/ExactRegexpMatch:
   Enabled: true
 Style/ReturnNil:
