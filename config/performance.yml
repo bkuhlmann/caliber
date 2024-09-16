@@ -4,8 +4,6 @@ Performance/AncestorsInclude:
   Enabled: true
 Performance/BigDecimalWithNumericArgument:
   Enabled: true
-Performance/BlockGivenWithExplicitBlock:
-  Enabled: false
 Performance/CollectionLiteralInLoop:
   Enabled: true
 Performance/ConcurrentMonotonicTime:
