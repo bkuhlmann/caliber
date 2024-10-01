@@ -1,5 +1,16 @@
 = Versions
 
+== 0.61.0 (2024-10-01)
+
+* 🟢 Added RSpec/StringAsInstanceDoubleConstant - Brooke Kuhlmann
+* 🔼 Updated gem specification documentation URI as homepage URI - Brooke Kuhlmann
+* 🔼 Updated gem specification to support Ruby 3.4.0 - Brooke Kuhlmann
+* 🔼 Updated to Refinements 12.8.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop Performance 1.22.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop RSpec 3.1.0 - Brooke Kuhlmann
+* 🔼 Updated to Ruby 3.3.5 - Brooke Kuhlmann
+* ⛔️ Removed Performance/BlockGivenWithExplicitBlock configuration - Brooke Kuhlmann
+
 == 0.60.0 (2024-08-31)
 
 * 🟢 Added Lint/UselessNumericOperation - Brooke Kuhlmann
