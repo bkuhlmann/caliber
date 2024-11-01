@@ -400,6 +400,8 @@ Style/RequireOrder:
   Enabled: true
 Style/SafeNavigation:
   Enabled: false
+Style/SafeNavigationChainLength:
+  Enabled: false
 Style/SelectByRegexp:
   Enabled: true
 Style/Send:
