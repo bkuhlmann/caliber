@@ -238,6 +238,8 @@ Style/CollectionCompact:
   Enabled: true
 Style/CollectionMethods:
   Enabled: true
+Style/CombinableDefined:
+  Enabled: true
 Style/ComparableClamp:
   Enabled: true
 Style/ConcatArrayLiterals:
