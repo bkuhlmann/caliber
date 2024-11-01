@@ -1,5 +1,15 @@
 = Versions
 
+== 0.64.0 (2024-11-01)
+
+* 🟢 Added Lint/UnescapedBracketInRegexp - Brooke Kuhlmann
+* 🟢 Added Style/AmbiguousEndlessMethodDefinition - Brooke Kuhlmann
+* 🟢 Added Style/BitwisePredicate - Brooke Kuhlmann
+* 🟢 Added Style/CombinableDefined - Brooke Kuhlmann
+* 🟢 Added Style/KeywordArgumentsMerging - Brooke Kuhlmann
+* 🟢 Added Style/SafeNavigationChainLength - Brooke Kuhlmann
+* 🔼 Updated to RuboCop 1.68.0 - Brooke Kuhlmann
+
 == 0.63.0 (2024-10-28)
 
 * 🔼 Updated to Refinements 12.10.0 - Brooke Kuhlmann
