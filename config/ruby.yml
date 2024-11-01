@@ -299,6 +299,8 @@ Style/IpAddresses:
     - "::"
     - "::1"
     - "127.0.0.1"
+Style/KeywordArgumentsMerging:
+  Enabled: true
 Style/MagicCommentFormat:
   Enabled: true
 Style/MapCompactWithConditionalBlock:
