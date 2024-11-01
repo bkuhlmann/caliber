@@ -230,6 +230,8 @@ Style/AndOr:
   EnforcedStyle: conditionals
 Style/AutoResourceCleanup:
   Enabled: true
+Style/BitwisePredicate:
+  Enabled: true
 Style/ClassMethodsDefinitions:
   Enabled: true
 Style/CollectionCompact:
