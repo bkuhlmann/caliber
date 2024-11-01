@@ -166,6 +166,8 @@ Lint/ToEnumArguments:
   Enabled: true
 Lint/TripleQuotes:
   Enabled: true
+Lint/UnescapedBracketInRegexp:
+  Enabled: true
 Lint/UnexpectedBlockArity:
   Enabled: true
 Lint/UnmodifiedReduceAccumulator:
