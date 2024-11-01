@@ -222,6 +222,8 @@ Security/IoMethods:
 Style/AccessModifierDeclarations:
   AllowModifiersOnSymbols: false
   AllowModifiersOnAttrs: false
+Style/AmbiguousEndlessMethodDefinition:
+  Enabled: false
 Style/ArgumentsForwarding:
   Enabled: false
 Style/ArrayCoercion:
