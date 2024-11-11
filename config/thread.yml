@@ -1,4 +1,6 @@
 require: rubocop-thread_safety
 
-ThreadSafety/InstanceVariableInClassMethod:
+ThreadSafety/ClassInstanceVariable:
+  Enabled: false
+ThreadSafety/DirChdir:
   Enabled: false
