@@ -1,5 +1,11 @@
 = Versions
 
+== 0.65.0 (2024-11-11)
+
+* 🔼 Updated to Git Lint 8.7.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop Thread Safety 0.6.0 - Brooke Kuhlmann
+* 🔼 Updated to Ruby 3.3.6 - Brooke Kuhlmann
+
 == 0.64.0 (2024-11-01)
 
 * 🟢 Added Lint/UnescapedBracketInRegexp - Brooke Kuhlmann
