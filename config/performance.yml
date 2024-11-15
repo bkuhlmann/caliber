@@ -36,6 +36,8 @@ Performance/StringIdentifierArgument:
   Enabled: true
 Performance/Squeeze:
   Enabled: true
+Performance/StringBytesize:
+  Enabled: true
 Performance/StringInclude:
   Enabled: true
 Performance/Sum:
