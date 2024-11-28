@@ -132,6 +132,8 @@ Lint/EmptyInPattern:
   AllowComments: false
 Lint/EmptyWhen:
   AllowComments: false
+Lint/HashNewWithKeywordArgumentsAsDefault:
+  Enabled: true
 Lint/IncompatibleIoSelectWithFiberScheduler:
   Enabled: true
 Lint/ItWithoutArgumentsInBlock:
