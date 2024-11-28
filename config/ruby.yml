@@ -150,6 +150,8 @@ Lint/NoReturnInBeginEndBlocks:
   Enabled: true
 Lint/NumberedParameterAssignment:
   Enabled: true
+Lint/NumericOperationWithConstantResult:
+  Enabled: true
 Lint/OrAssignmentToConstant:
   Enabled: true
 Lint/RedundantDirGlobSort:
