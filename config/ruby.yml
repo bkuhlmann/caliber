@@ -343,6 +343,8 @@ Style/NestedFileDirname:
   Enabled: true
 Style/NilLambda:
   Enabled: true
+Style/FileNull:
+  Enabled: true
 Style/NumberedParameters:
   Enabled: true
   EnforcedStyle: disallow
