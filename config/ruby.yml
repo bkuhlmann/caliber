@@ -254,6 +254,8 @@ Style/ConcatArrayLiterals:
   Enabled: true
 Style/DataInheritance:
   Enabled: true
+Style/DigChain:
+  Enabled: true
 Style/DirEmpty:
   Enabled: true
 Style/Documentation:
