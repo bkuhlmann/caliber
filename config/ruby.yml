@@ -284,6 +284,8 @@ Style/FileRead:
   Enabled: true
 Style/FileWrite:
   Enabled: true
+Style/FileTouch:
+  Enabled: true
 Style/GlobalStdStream:
   Enabled: false
 Style/HashConversion:
