@@ -1,5 +1,15 @@
 = Versions
 
+== 0.67.0 (2024-12-03)
+
+* 🟢 Added Lint/HashNewWithKeywordArgumentsAsDefault - Brooke Kuhlmann
+* 🟢 Added Lint/NumericOperationWithConstantResult - Brooke Kuhlmann
+* 🟢 Added Lint/UselessDefined - Brooke Kuhlmann
+* 🟢 Added Style/DigChain - Brooke Kuhlmann
+* 🟢 Added Style/FileNull - Brooke Kuhlmann
+* 🟢 Added Style/FileTouch - Brooke Kuhlmann
+* 🔼 Updated to RuboCop 1.69.0 - Brooke Kuhlmann
+
 == 0.66.0 (2024-11-15)
 
 * 🟢 Added Performance/StringBytesize - Brooke Kuhlmann
