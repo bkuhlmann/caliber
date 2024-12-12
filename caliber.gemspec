@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop-packaging", "~> 0.5"
   spec.add_dependency "rubocop-performance", "~> 1.23"
   spec.add_dependency "rubocop-rake", "~> 0.6"
-  spec.add_dependency "rubocop-rspec", "~> 3.2"
+  spec.add_dependency "rubocop-rspec", "~> 3.3"
   spec.add_dependency "rubocop-thread_safety", "~> 0.6"
 
   spec.bindir = "exe"
