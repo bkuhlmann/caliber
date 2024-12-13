@@ -3,4 +3,5 @@ require: rubocop-thread_safety
 ThreadSafety/ClassInstanceVariable:
   Enabled: false
 ThreadSafety/DirChdir:
-  Enabled: false
+  Exclude:
+    - "bin/setup"
