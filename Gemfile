@@ -7,14 +7,14 @@ source "https://rubygems.org"
 gemspec
 
 group :quality do
-  gem "git-lint", "~> 8.7"
+  # gem "git-lint", "~> 8.7"
   gem "reek", "~> 6.3", require: false
   gem "simplecov", "~> 0.22", require: false
 end
 
-group :development, :test do
-  gem "refinements", "~> 12.10"
-end
+# group :development, :test do
+#   gem "refinements", "~> 12.10"
+# end
 
 group :development do
   gem "rake", "~> 13.2"
