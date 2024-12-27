@@ -1,5 +1,11 @@
 = Versions
 
+== 0.68.0 (2024-12-27)
+
+* 🟢 Added ThreadSafety/DirChdir configuration - Brooke Kuhlmann
+* 🔼 Updated to RuboCop RSpec 3.3.0 - Brooke Kuhlmann
+* 🔼 Updated to Ruby 3.4.0 - Brooke Kuhlmann
+
 == 0.67.0 (2024-12-03)
 
 * 🟢 Added Lint/HashNewWithKeywordArgumentsAsDefault - Brooke Kuhlmann
