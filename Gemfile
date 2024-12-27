@@ -12,9 +12,9 @@ group :quality do
   gem "simplecov", "~> 0.22", require: false
 end
 
-# group :development, :test do
-#   gem "refinements", "~> 13.0"
-# end
+group :development, :test do
+  gem "refinements", "~> 13.0"
+end
 
 group :development do
   gem "rake", "~> 13.2"
