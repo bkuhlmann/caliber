@@ -104,6 +104,8 @@ Lint/AmbiguousRange:
   Enabled: true
 Lint/ConstantOverwrittenInRescue:
   Enabled: true
+Lint/ConstantReassignment:
+  Enabled: true
 Lint/DeprecatedConstants:
   Enabled: true
 Lint/DuplicateBranch:
