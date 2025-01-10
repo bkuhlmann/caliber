@@ -1,5 +1,18 @@
 = Versions
 
+== 0.69.0 (2025-01-10)
+
+* 🟢 Added Lint/ConstantReassignment - Brooke Kuhlmann
+* 🟢 Added Lint/SharedMutableDefault - Brooke Kuhlmann
+* 🟢 Added Style/ItAssignment - Brooke Kuhlmann
+* 🔼 Updated Gemfile to re-enable refinements - Brooke Kuhlmann
+* 🔼 Updated to Amazing Print 1.7.0 - Brooke Kuhlmann
+* 🔼 Updated to Debug 1.10.0 - Brooke Kuhlmann
+* 🔼 Updated to Git Lint 9.0.0 - Brooke Kuhlmann
+* 🔼 Updated to IRB Kit 1.0.0 - Brooke Kuhlmann
+* 🔼 Updated to Refinements 13.0.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop 1.7.0 - Brooke Kuhlmann
+
 == 0.68.0 (2024-12-27)
 
 * 🟢 Added ThreadSafety/DirChdir configuration - Brooke Kuhlmann
