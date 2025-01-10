@@ -315,6 +315,8 @@ Style/IpAddresses:
     - "::"
     - "::1"
     - "127.0.0.1"
+Style/ItAssignment:
+  Enabled: true
 Style/KeywordArgumentsMerging:
   Enabled: true
 Style/MagicCommentFormat:
