@@ -39,5 +39,5 @@ RSpec/ExampleLength:
     - heredoc
 RSpec/NamedSubject:
   IgnoreSharedExamples: false
-RSpec/StringAsInstanceDoubleConstant:
+RSpec/VerifiedDoubleReference:
   Enabled: true
