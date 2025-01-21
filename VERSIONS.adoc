@@ -1,5 +1,11 @@
 = Versions
 
+== 0.70.0 (2025-01-21)
+
+* 🔼 Updated to Reek 6.4.0 - Brooke Kuhlmann
+* 🔼 Updated to RuboCop RSpec 3.4.0 - Brooke Kuhlmann
+* ⛔️ Removed RSpec/StringAsInstanceDoubleConstant - Brooke Kuhlmann
+
 == 0.69.0 (2025-01-10)
 
 * 🟢 Added Lint/ConstantReassignment - Brooke Kuhlmann
