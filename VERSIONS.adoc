@@ -1,5 +1,12 @@
 = Versions
 
+== 0.71.0 (2025-01-23)
+
+* 🟢 Added Lint/ArrayLiteralInRegexp - Brooke Kuhlmann
+* 🟢 Added Style/HashSlice - Brooke Kuhlmann
+* 🔼 Updated to RuboCop 1.71.0 - Brooke Kuhlmann
+* ⛔️ Removed RSpec/VerifiedDoubleReference configuration - Brooke Kuhlmann
+
 == 0.70.0 (2025-01-21)
 
 * 🔼 Updated to Reek 6.4.0 - Brooke Kuhlmann
