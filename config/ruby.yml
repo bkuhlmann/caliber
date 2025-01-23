@@ -102,6 +102,8 @@ Lint/AmbiguousOperatorPrecedence:
   Enabled: true
 Lint/AmbiguousRange:
   Enabled: true
+Lint/ArrayLiteralInRegexp:
+  Enabled: true
 Lint/ConstantOverwrittenInRescue:
   Enabled: true
 Lint/ConstantReassignment:
