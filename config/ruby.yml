@@ -303,6 +303,8 @@ Style/HashExcept:
 Style/HashLikeCase:
   Enabled: true
   MinBranchesCount: 2
+Style/HashSlice:
+  Enabled: true
 Style/IfWithBooleanLiteralBranches:
   Enabled: true
 Style/ImplicitRuntimeError:
