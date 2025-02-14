@@ -164,6 +164,8 @@ Lint/RedundantDirGlobSort:
   Enabled: true
 Lint/RedundantRegexpQuantifiers:
   Enabled: true
+Lint/RedundantTypeConversion:
+  Enabled: true
 Lint/RefinementImportMethods:
   Enabled: true
 Lint/RequireRangeParentheses:
