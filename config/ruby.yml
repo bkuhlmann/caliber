@@ -188,6 +188,8 @@ Lint/UnexpectedBlockArity:
   Enabled: true
 Lint/UnmodifiedReduceAccumulator:
   Enabled: true
+Lint/UselessConstantScoping:
+  Enabled: true
 Lint/UselessDefined:
   Enabled: true
 Lint/UselessNumericOperation:
