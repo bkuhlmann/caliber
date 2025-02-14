@@ -405,6 +405,8 @@ Style/RedundantEach:
   Enabled: true
 Style/RedundantFilterChain:
   Enabled: true
+Style/RedundantFormat:
+  Enabled: true
 Style/RedundantHeredocDelimiterQuotes:
   Enabled: true
 Style/RedundantLineContinuation:
