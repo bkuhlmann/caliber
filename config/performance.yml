@@ -42,3 +42,5 @@ Performance/StringInclude:
   Enabled: true
 Performance/Sum:
   Enabled: true
+Performance/ZipWithoutBlock:
+  Enabled: true
