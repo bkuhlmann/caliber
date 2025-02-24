@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop-performance", "~> 1.24"
   spec.add_dependency "rubocop-rake", "~> 0.7"
   spec.add_dependency "rubocop-rspec", "~> 3.5"
-  spec.add_dependency "rubocop-thread_safety", "~> 0.6"
+  spec.add_dependency "rubocop-thread_safety", "~> 0.7"
 
   spec.bindir = "exe"
   spec.executables << "caliber"

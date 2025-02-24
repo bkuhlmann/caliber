@@ -1,4 +1,4 @@
-require: rubocop-thread_safety
+plugins: rubocop-thread_safety
 
 ThreadSafety/ClassInstanceVariable:
   Enabled: false
