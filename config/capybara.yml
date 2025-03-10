@@ -1,4 +1,4 @@
-require: rubocop-capybara
+plugins: rubocop-capybara
 
 Capybara/ClickLinkOrButtonStyle:
   Enabled: true
