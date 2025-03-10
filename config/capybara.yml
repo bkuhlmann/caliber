@@ -1,7 +1,5 @@
 plugins: rubocop-capybara
 
-Capybara/ClickLinkOrButtonStyle:
-  Enabled: true
 Capybara/FindAllFirst:
   Enabled: true
 Capybara/MatchStyle:
