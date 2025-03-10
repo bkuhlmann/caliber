@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: Please use the following metadata when citing this project in your work.
 title: Caliber
 abstract: A global, high quality, and constantly updated RuboCop configuration.
-version: 0.75.0
+version: 0.76.0
 license: Hippocratic-2.1
-date-released: 2025-02-27
+date-released: 2025-03-10
 authors:
   - family-names: Kuhlmann
     given-names: Brooke
