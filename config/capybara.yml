@@ -1,5 +1,7 @@
 plugins: rubocop-capybara
 
+Capybara/AmbiguousClick:
+  Enabled: true
 Capybara/FindAllFirst:
   Enabled: true
 Capybara/MatchStyle:
