@@ -1,1 +1,1 @@
-require: rubocop-packaging
+plugins: rubocop-packaging
