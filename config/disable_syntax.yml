@@ -1,4 +1,4 @@
-require: rubocop-disable_syntax
+plugins: rubocop-disable_syntax
 
 Style/DisableSyntax:
   DisableSyntax:
