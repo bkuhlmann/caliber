@@ -310,6 +310,8 @@ Style/HashConversion:
   Enabled: true
 Style/HashExcept:
   Enabled: true
+Style/HashFetchChain:
+  Enabled: true
 Style/HashLikeCase:
   Enabled: true
   MinBranchesCount: 2
