@@ -410,6 +410,8 @@ Style/RedundantArgument:
   Enabled: true
 Style/RedundantArrayConstructor:
   Enabled: true
+Style/RedundantArrayFlatten:
+  Enabled: true
 Style/RedundantConstantBase:
   Enabled: true
 Style/RedundantCurrentDirectoryInPath:
