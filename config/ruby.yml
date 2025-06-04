@@ -196,6 +196,8 @@ Lint/UselessDefined:
   Enabled: true
 Lint/UselessNumericOperation:
   Enabled: true
+Lint/UselessOr:
+  Enabled: true
 Lint/UselessRescue:
   Enabled: true
 Lint/UselessRuby2Keywords:
