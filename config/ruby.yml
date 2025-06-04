@@ -293,6 +293,8 @@ Style/EmptyHeredoc:
   Enabled: true
 Style/EmptyLiteral:
   Enabled: false
+Style/EmptyStringInsideInterpolation:
+  Enabled: true
 Style/EmptyMethod:
   EnforcedStyle: expanded
 Style/EndlessMethod:
