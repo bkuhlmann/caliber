@@ -235,6 +235,9 @@ Naming/VariableNumber:
     - capture3
 Naming/MethodParameterName:
   AllowNamesEndingInNumbers: false
+Naming/PredicateMethod:
+  Enabled: true
+  Mode: aggressive
 Security/CompoundHash:
   Enabled: true
 Security/IoMethods:
