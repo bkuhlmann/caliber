@@ -24,12 +24,12 @@ keyifier = lambda do |path|
 end
 
 rubocop_filter = lambda do |configuration|
-  configuration.select { |_key, values| values["Enabled"].to_s.to_bool }
+  configuration.select { |_key, values| values["Enabled"].to_s.truthy? }
                .keys
 end
 
 caliber_filter = lambda do |configuration|
-  configuration.select { |_key, values| values["Enabled"].to_s.to_bool && values.size == 1 }
+  configuration.select { |_key, values| values["Enabled"].to_s.truthy? && values.size == 1 }
                .keys
 end
 
