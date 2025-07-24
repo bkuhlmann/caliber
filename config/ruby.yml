@@ -49,6 +49,8 @@ Layout/CommentIndentation:
   AllowForAlignment: true
 Layout/EmptyLineAfterMultilineCondition:
   Enabled: true
+Layout/EmptyLinesAfterModuleInclusion:
+  Enabled: true
 Layout/EmptyLinesAroundAttributeAccessor:
   Enabled: true
   AllowAliasSyntax: false
