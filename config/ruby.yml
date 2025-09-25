@@ -261,6 +261,8 @@ Style/ArrayCoercion:
   Enabled: true
 Style/ArrayIntersect:
   Enabled: true
+Style/ArrayIntersectWithSingleElement:
+  Enabled: true
 Style/AndOr:
   EnforcedStyle: conditionals
 Style/AutoResourceCleanup:
