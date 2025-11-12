@@ -39,5 +39,7 @@ RSpec/ExampleLength:
     - heredoc
 RSpec/IncludeExamples:
   Enabled: true
+RSpec/LeakyLocalVariable:
+  Enabled: true
 RSpec/NamedSubject:
   IgnoreSharedExamples: false
