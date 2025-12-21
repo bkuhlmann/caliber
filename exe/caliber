@@ -1,8 +1,6 @@
 #! /usr/bin/env ruby
 # frozen_string_literal: true
 
-require "pathname"
-
 PATHS = {
   xdg_config: ".config/rubocop/config.yml",
   xdg_issues: ".config/rubocop/issues.yml",
