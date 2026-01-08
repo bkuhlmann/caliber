@@ -43,3 +43,5 @@ RSpec/LeakyLocalVariable:
   Enabled: true
 RSpec/NamedSubject:
   IgnoreSharedExamples: false
+RSpec/Output:
+  Enabled: true
