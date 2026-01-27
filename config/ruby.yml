@@ -451,6 +451,8 @@ Style/RedundantInitialize:
   AllowComments: false
 Style/RedundantInterpolationUnfreeze:
   Enabled: true
+Style/ReverseFind:
+  Enabled: true
 Style/ExactRegexpMatch:
   Enabled: true
 Style/ReturnNil:
