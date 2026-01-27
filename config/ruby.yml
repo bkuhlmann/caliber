@@ -388,6 +388,8 @@ Style/MultilineMethodSignature:
   Enabled: true
 Style/NegatedIfElseCondition:
   Enabled: true
+Style/NegativeArrayIndex:
+  Enabled: true
 Style/NestedFileDirname:
   Enabled: true
 Style/NilLambda:
