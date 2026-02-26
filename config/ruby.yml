@@ -526,6 +526,8 @@ Style/SuperWithArgsParentheses:
   Enabled: false
 Style/SwapValues:
   Enabled: true
+Style/TallyMethod:
+  Enabled: true
 Style/TopLevelMethodDefinition:
   Enabled: true
 Style/YAMLFileRead:
