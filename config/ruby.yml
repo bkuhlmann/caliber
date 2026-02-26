@@ -194,6 +194,8 @@ Lint/UnexpectedBlockArity:
   Enabled: true
 Lint/UnmodifiedReduceAccumulator:
   Enabled: true
+Lint/UnreachablePatternBranch:
+  Enabled: true
 Lint/UselessConstantScoping:
   Enabled: true
 Lint/UselessDefaultValueArgument:
