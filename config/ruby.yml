@@ -493,6 +493,8 @@ Style/SafeNavigationChainLength:
   Enabled: false
 Style/SelectByKind:
   Enabled: true
+Style/SelectByRange:
+  Enabled: true
 Style/SelectByRegexp:
   Enabled: true
 Style/Send:
