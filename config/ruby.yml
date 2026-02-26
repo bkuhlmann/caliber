@@ -319,6 +319,8 @@ Style/FetchEnvVar:
   Enabled: true
 Style/FileEmpty:
   Enabled: true
+Style/FileOpen:
+  Enabled: true
 Style/FileRead:
   Enabled: true
 Style/FileWrite:
