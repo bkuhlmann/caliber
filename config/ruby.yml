@@ -436,6 +436,8 @@ Style/PredicateWithKind:
   Enabled: true
 Style/QuotedSymbols:
   Enabled: true
+Style/ReduceToHash:
+  Enabled: true
 Style/RedundantArgument:
   Enabled: true
 Style/RedundantArrayConstructor:
