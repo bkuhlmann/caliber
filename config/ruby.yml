@@ -368,6 +368,8 @@ Style/MapCompactWithConditionalBlock:
   Enabled: true
 Style/MapIntoArray:
   Enabled: true
+Style/MapJoin:
+  Enabled: true
 Style/MapToHash:
   Enabled: true
 Style/MapToSet:
