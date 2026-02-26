@@ -114,6 +114,8 @@ Lint/ConstantReassignment:
   Enabled: true
 Lint/CopDirectiveSyntax:
   Enabled: true
+Lint/DataDefineOverride:
+  Enabled: true
 Lint/DeprecatedConstants:
   Enabled: true
 Lint/DuplicateBranch:
