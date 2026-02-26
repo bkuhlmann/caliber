@@ -413,6 +413,10 @@ Style/NumericLiterals:
   Enabled: false
 Style/ObjectThen:
   Enabled: true
+Style/OneClassPerFile:
+  Enabled: true
+  Exclude:
+    - bin/benchmark
 Style/OptionHash:
   Enabled: true
 Style/OpenStructUse:
