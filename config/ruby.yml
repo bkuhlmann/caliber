@@ -460,6 +460,8 @@ Style/RedundantHeredocDelimiterQuotes:
   Enabled: true
 Style/RedundantLineContinuation:
   Enabled: true
+Style/RedundantMinMaxBy:
+  Enabled: true
 Style/RedundantRegexpArgument:
   Enabled: true
 Style/RedundantRegexpConstructor:
