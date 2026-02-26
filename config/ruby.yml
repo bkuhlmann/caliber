@@ -423,6 +423,8 @@ Style/OpenStructUse:
   Enabled: true
 Style/OperatorMethodCall:
   Enabled: true
+Style/PartitionInsteadOfDoubleSelect:
+  Enabled: true
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
     "%w": "[]"
