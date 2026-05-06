@@ -28,3 +28,5 @@ Capybara/SpecificFinders:
   Enabled: true
 Capybara/RSpec/SpecificMatcher:
   Enabled: true
+Capybara/RSpec/VisibilityMatcher:
+  Enabled: true
