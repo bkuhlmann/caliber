@@ -4,15 +4,17 @@ Capybara/AmbiguousClick:
   Enabled: true
 Capybara/FindAllFirst:
   Enabled: true
-Capybara/MatchStyle:
-  Enabled: true
-Capybara/NegationMatcher:
-  Enabled: true
-Capybara/NegationMatcherAfterVisit:
+Capybara/AssertStyle:
   Enabled: true
 Capybara/RedundantWithinFind:
   Enabled: true
 Capybara/RSpec/HaveSelector:
+  Enabled: true
+Capybara/RSpec/MatchStyle:
+  Enabled: true
+Capybara/RSpec/NegationMatcher:
+  Enabled: true
+Capybara/RSpec/NegationMatcherAfterVisit:
   Enabled: true
 Capybara/RSpec/PredicateMatcher:
   Enabled: true
@@ -20,5 +22,5 @@ Capybara/SpecificActions:
   Enabled: true
 Capybara/SpecificFinders:
   Enabled: true
-Capybara/SpecificMatcher:
+Capybara/RSpec/SpecificMatcher:
   Enabled: true
