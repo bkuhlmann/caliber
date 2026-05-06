@@ -8,6 +8,8 @@ Capybara/AssertStyle:
   Enabled: true
 Capybara/RedundantWithinFind:
   Enabled: true
+Capybara/RSpec/CurrentPathExpectation:
+  Enabled: true
 Capybara/RSpec/HaveSelector:
   Enabled: true
 Capybara/RSpec/MatchStyle:
