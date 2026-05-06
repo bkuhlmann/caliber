@@ -14,6 +14,8 @@ Capybara/RSpec/HaveSelector:
   Enabled: true
 Capybara/RSpec/MatchStyle:
   Enabled: true
+Capybara/RSpec/HaveContent:
+  Enabled: true
 Capybara/RSpec/NegationMatcher:
   Enabled: true
 Capybara/RSpec/NegationMatcherAfterVisit:
