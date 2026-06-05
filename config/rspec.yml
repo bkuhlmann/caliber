@@ -45,5 +45,7 @@ RSpec/LeakyLocalVariable:
   Enabled: true
 RSpec/NamedSubject:
   IgnoreSharedExamples: false
+RSpec/MatchWithSimpleRegex:
+  Enabled: true
 RSpec/Output:
   Enabled: true
