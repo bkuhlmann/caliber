@@ -218,7 +218,7 @@ Metrics/BlockLength:
     - Dry::Schema.Params
 Metrics/CollectionLiteralLength:
   Enabled: true
-  LengthThreshold: 25
+  Max: 25
 Metrics/ParameterLists:
   Max: 3
 Naming/BlockForwarding:
