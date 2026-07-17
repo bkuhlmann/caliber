@@ -2,10 +2,12 @@
 
 require "simplecov"
 
-SimpleCov.start "strict" unless ENV["COVERAGE"] == "no"
+SimpleCov.start :strict unless ENV["COVERAGE"] == "no"
 Bundler.require :tools
 
 require "caliber"
+
+SPEC_ROOT = Pathname(__dir__).realpath.freeze
 
 RSpec.configure do |config|
   config.color = true
