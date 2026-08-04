@@ -170,6 +170,8 @@ Lint/NumericOperationWithConstantResult:
   Enabled: true
 Lint/OrAssignmentToConstant:
   Enabled: true
+Lint/UnusedPrivateMethod:
+  Enabled: true
 Lint/RedundantDirGlobSort:
   Enabled: true
 Lint/RedundantRegexpQuantifiers:
