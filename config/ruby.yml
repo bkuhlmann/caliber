@@ -118,6 +118,8 @@ Lint/DataDefineOverride:
   Enabled: true
 Lint/DeprecatedConstants:
   Enabled: true
+Lint/DeprecatedReference:
+  Enabled: false
 Lint/DuplicateBranch:
   Enabled: true
 Lint/DuplicateMagicComment:
