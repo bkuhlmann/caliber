@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 4.0"
 
-  spec.add_dependency "rubocop", "~> 1.88"
+  spec.add_dependency "rubocop", "~> 1.89"
   spec.add_dependency "rubocop-capybara", "~> 2.23"
   spec.add_dependency "rubocop-disable_syntax", "~> 0.2"
   spec.add_dependency "rubocop-packaging", "~> 0.6"
