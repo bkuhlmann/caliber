@@ -158,6 +158,8 @@ Lint/LiteralAssignmentInCondition:
   Enabled: true
 Lint/MixedCaseRange:
   Enabled: true
+Lint/NameTypo:
+  Enabled: true
 Lint/NonAtomicFileOperation:
   Enabled: true
 Lint/NoReturnInBeginEndBlocks:
