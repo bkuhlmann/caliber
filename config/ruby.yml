@@ -261,7 +261,6 @@ Security/CompoundHash:
 Security/IoMethods:
   Enabled: true
 Style/AccessModifierDeclarations:
-  AllowModifiersOnSymbols: false
   AllowModifiersOnAttrs: false
 Style/AmbiguousEndlessMethodDefinition:
   Enabled: false
