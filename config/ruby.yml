@@ -302,6 +302,8 @@ Style/DataInheritance:
   Enabled: true
 Style/DigChain:
   Enabled: true
+Style/DirectiveScope:
+  Enabled: true
 Style/DirEmpty:
   Enabled: true
 Style/Documentation:
