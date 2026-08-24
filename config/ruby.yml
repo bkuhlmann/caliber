@@ -539,6 +539,8 @@ Style/SwapValues:
   Enabled: true
 Style/TallyMethod:
   Enabled: true
+Style/TimeNow:
+  Enabled: true
 Style/TopLevelMethodDefinition:
   Enabled: true
 Style/YAMLFileRead:
