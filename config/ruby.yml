@@ -188,6 +188,8 @@ Lint/RequireRelativeSelfPath:
   Enabled: true
 Lint/SharedMutableDefault:
   Enabled: true
+Lint/SuperArgumentMismatch:
+  Enabled: true
 Lint/SuppressedExceptionInNumberConversion:
   Enabled: true
 Lint/SymbolConversion:
