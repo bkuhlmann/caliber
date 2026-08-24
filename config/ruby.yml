@@ -106,6 +106,8 @@ Lint/AmbiguousOperatorPrecedence:
   Enabled: true
 Lint/AmbiguousRange:
   Enabled: true
+Lint/ArgumentMismatch:
+  Enabled: true
 Lint/ArrayLiteralInRegexp:
   Enabled: true
 Lint/ConstantOverwrittenInRescue:
