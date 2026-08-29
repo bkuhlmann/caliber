@@ -132,8 +132,6 @@ Lint/DuplicateRegexpCharacterClassElement:
   Enabled: true
 Lint/DuplicateSetElement:
   Enabled: true
-Lint/ElseLayout:
-  Enabled: false
 Lint/EmptyBlock:
   Enabled: true
   AllowComments: false
