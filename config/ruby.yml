@@ -114,8 +114,6 @@ Lint/ConstantOverwrittenInRescue:
   Enabled: true
 Lint/ConstantReassignment:
   Enabled: true
-Lint/CopDirectiveSyntax:
-  Enabled: true
 Lint/DataDefineOverride:
   Enabled: true
 Lint/DeprecatedConstants:
