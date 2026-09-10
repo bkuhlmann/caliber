@@ -6,6 +6,7 @@ AllCops:
     - "node_modules/**/*"
     - "tmp/**/*"
     - "vendor/**/*"
+  FailLevel: refactor
 Bundler/InsecureProtocolSource:
   AllowHttpProtocol: false
 Gemspec/AddRuntimeDependency:
