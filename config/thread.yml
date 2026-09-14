@@ -7,6 +7,10 @@ ThreadSafety/ClassInstanceVariable:
 ThreadSafety/DirChdir:
   Exclude:
     - "bin/setup"
+ThreadSafety/EnvMutation:
+  Enabled: true
+  Exclude:
+    - "spec/**/*"
 ThreadSafety/LazySynchronizationPrimitive:
   Enabled: true
 ThreadSafety/MethodRedefinition:
