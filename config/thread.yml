@@ -7,3 +7,5 @@ ThreadSafety/ClassInstanceVariable:
 ThreadSafety/DirChdir:
   Exclude:
     - "bin/setup"
+ThreadSafety/MethodRedefinition:
+  Enabled: true
