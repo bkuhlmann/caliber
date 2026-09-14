@@ -1,5 +1,7 @@
 plugins: rubocop-thread_safety
 
+ThreadSafety/ActiveSupportCallbacks:
+  Enabled: true
 ThreadSafety/ClassInstanceVariable:
   Enabled: false
 ThreadSafety/DirChdir:
