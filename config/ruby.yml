@@ -2,10 +2,10 @@ AllCops:
   ActiveSupportExtensionsEnabled: true
   DisplayCopNames: true
   Exclude:
-    - "db/schema.rb"
-    - "node_modules/**/*"
-    - "tmp/**/*"
-    - "vendor/**/*"
+    - db/schema.rb
+    - node_modules/**/*
+    - tmp/**/*
+    - vendor/**/*
   FailLevel: refactor
 Bundler/InsecureProtocolSource:
   AllowHttpProtocol: false
