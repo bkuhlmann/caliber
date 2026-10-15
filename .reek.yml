@@ -1,3 +1,9 @@
 exclude_paths:
   - tmp
   - vendor
+
+detectors:
+  LongParameterList:
+    enabled: false
+  UnusedParameters:
+    enabled: false
