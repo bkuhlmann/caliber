@@ -38,8 +38,8 @@ Layout/ClassStructure:
       - has_one
       - has_many
   ExpectedOrder:
-    - module_inclusion
     - constants
+    - module_inclusion
     - associations
     - public_class_methods
     - initializer
