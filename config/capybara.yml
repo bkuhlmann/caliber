@@ -1,5 +1,7 @@
 plugins: rubocop-capybara
 
+Capybara/AbsoluteXPathInElementScope:
+  Enabled: true
 Capybara/AmbiguousClick:
   Enabled: true
 Capybara/FindAllFirst:
