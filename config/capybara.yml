@@ -6,6 +6,8 @@ Capybara/AlwaysTrueCountQuery:
   Enabled: true
 Capybara/AmbiguousClick:
   Enabled: true
+Capybara/ChainedFind:
+  Enabled: true
 Capybara/FindAllFirst:
   Enabled: true
 Capybara/AssertStyle:
