@@ -16,6 +16,8 @@ Capybara/IgnoredQueryOption:
   Enabled: true
 Capybara/ModalMethodWithoutBlock:
   Enabled: true
+Capybara/NativeAttribute:
+  Enabled: true
 Capybara/RedundantWithinFind:
   Enabled: true
 Capybara/RSpec/CurrentPathExpectation:
