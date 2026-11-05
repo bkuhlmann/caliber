@@ -40,6 +40,8 @@ Capybara/SpecificFinders:
   Enabled: true
 Capybara/RSpec/CurrentUrlExpectation:
   Enabled: true
+Capybara/RSpec/FindElementValueEq:
+  Enabled: true
 Capybara/RSpec/SpecificMatcher:
   Enabled: true
 Capybara/RSpec/VisibilityMatcher:
