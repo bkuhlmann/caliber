@@ -42,3 +42,5 @@ Capybara/RSpec/SpecificMatcher:
   Enabled: true
 Capybara/RSpec/VisibilityMatcher:
   Enabled: true
+Capybara/UnorderedWindowAccess:
+  Enabled: true
