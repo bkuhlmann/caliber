@@ -6,11 +6,7 @@ Capybara/AlwaysTrueCountQuery:
   Enabled: true
 Capybara/AmbiguousClick:
   Enabled: true
-Capybara/AssertStyle:
-  Enabled: true
 Capybara/ChainedFind:
-  Enabled: true
-Capybara/FindAllFirst:
   Enabled: true
 Capybara/IgnoredQueryOption:
   Enabled: true
@@ -18,33 +14,9 @@ Capybara/ModalMethodWithoutBlock:
   Enabled: true
 Capybara/NativeAttribute:
   Enabled: true
-Capybara/RedundantWithinFind:
-  Enabled: true
-Capybara/RSpec/CurrentPathExpectation:
-  Enabled: true
-Capybara/RSpec/HaveSelector:
-  Enabled: true
-Capybara/RSpec/MatchStyle:
-  Enabled: true
-Capybara/RSpec/HaveContent:
-  Enabled: true
-Capybara/RSpec/NegationMatcher:
-  Enabled: true
-Capybara/RSpec/NegationMatcherAfterVisit:
-  Enabled: true
-Capybara/RSpec/PredicateMatcher:
-  Enabled: true
-Capybara/SpecificActions:
-  Enabled: true
-Capybara/SpecificFinders:
-  Enabled: true
 Capybara/RSpec/CurrentUrlExpectation:
   Enabled: true
 Capybara/RSpec/FindElementValueEq:
-  Enabled: true
-Capybara/RSpec/SpecificMatcher:
-  Enabled: true
-Capybara/RSpec/VisibilityMatcher:
   Enabled: true
 Capybara/UnorderedWindowAccess:
   Enabled: true
