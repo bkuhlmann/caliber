@@ -33,6 +33,8 @@ RSpec/Dialect:
     subject!: subject
 RSpec/DiscardedMatcher:
   Enabled: true
+RSpec/EmptyLineAfterSharedInclusion:
+  Enabled: true
 RSpec/ExampleLength:
   Max: 10
   CountAsOne:
